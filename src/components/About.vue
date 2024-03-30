@@ -56,7 +56,7 @@
         1.0
     </h2>
     <hr class="border border-[#166F7B] mx-[10%] w-[80%]">
-    <div class="carousel-container mt-6">
+    <!-- <div class="carousel-container mt-6">
         <div class="carousel-track h-[350px] sm:h-[300px] lg:h-[200px]">
             <img src="../assets/images/img1.webp" class="carousel-img" alt="image 3 - magnathon '22">
             <img src="../assets/images/img4.jpg" class="carousel-img" alt="image 4 - magnathon '22">
@@ -66,7 +66,7 @@
             <img src="../assets/images/img8.jpg" class="carousel-img" alt="image 8 - magnathon '22">
             <img src="../assets/images/img3.jpg" class="carousel-img" alt="image 9 - magnathon '22">
         </div>
-    </div>
+    </div> -->
 </template>
 
 <style scoped>
