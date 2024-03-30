@@ -20,7 +20,7 @@
                 <div class="xl:w-1/2 flex flex-col justify-center items-center relative order-1 xl:order-2 mb-4"
                     v-motion-slide-visible-right>
                     <div class="w-full flex items-center rounded-lg">
-                        <img src="../assets/images/img1.jpg" class="about-carousel" alt="">
+                        <img src="../assets/images/img1.jpg" class="about-carousel" alt="image 1 - magnathon '22">
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                 <div class="xl:w-1/2 flex flex-col justify-center items-center relative xl:me-4 mb-4"
                     v-motion-slide-visible-left>
                     <div class="w-full flex items-center rounded-lg">
-                        <img src="../assets/images/img2.jpg" class="about-carousel" alt="">
+                        <img src="../assets/images/img2.jpg" class="about-carousel" alt="image 2 - magnathon '22">
                     </div>
                 </div>
                 <div class="about-card flex flex-col justify-center w-[100%] xl:w-[50%] me-4 mb-4 p-2 md:p-4"
@@ -58,13 +58,13 @@
     <hr class="border border-[#166F7B] mx-[10%] w-[80%]">
     <div class="carousel-container mt-6">
         <div class="carousel-track h-[350px] sm:h-[300px] lg:h-[200px]">
-            <img src="../assets/images/img1.jpg" class="carousel-img" alt="">
-            <img src="../assets/images/img4.jpg" class="carousel-img" alt="">
-            <img src="../assets/images/img5.jpg" class="carousel-img" alt="">
-            <img src="../assets/images/img6.jpg" class="carousel-img" alt="">
-            <img src="../assets/images/img7.jpg" class="carousel-img" alt="">
-            <img src="../assets/images/img8.jpg" class="carousel-img" alt="">
-            <img src="../assets/images/img3.jpg" class="carousel-img" alt="">
+            <img src="../assets/images/img1.jpg" class="carousel-img" alt="image 3 - magnathon '22">
+            <img src="../assets/images/img4.jpg" class="carousel-img" alt="image 4 - magnathon '22">
+            <img src="../assets/images/img5.jpg" class="carousel-img" alt="image 5 - magnathon '22">
+            <img src="../assets/images/img6.jpg" class="carousel-img" alt="image 6 - magnathon '22">
+            <img src="../assets/images/img7.jpg" class="carousel-img" alt="image 7 - magnathon '22">
+            <img src="../assets/images/img8.jpg" class="carousel-img" alt="image 8 - magnathon '22">
+            <img src="../assets/images/img3.jpg" class="carousel-img" alt="image 9 - magnathon '22">
         </div>
     </div>
 </template>

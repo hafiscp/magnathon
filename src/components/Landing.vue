@@ -12,7 +12,7 @@
             </div>
             <div class="flex flex-row justify-center items-center mt-5 first-letter:font-sans text-palette-400">
                 <a class="text-lg p-2 mt-5 flex justify-evenly items-center rounded-md border-2 border-[#00FFA3]">
-                    <img src="../assets/images/Logo.png" class="w-8" alt="">
+                    <img src="../assets/images/Logo.png" class="w-8" alt="Devfolio">
                     <span class="text-[#00FFA3]">Register Now</span>
                 </a>
             </div>

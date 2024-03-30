@@ -41,7 +41,7 @@
             <a href="https://www.linkedin.com/in/ieee-sb-cev-6aa3831b5" class="text-4xl text-[#00FFA3]">
                 <i class="bi bi-linkedin"></i>
             </a>
-            <a href="mailto:ieeesbcev@cev.ac.in" class="text-4xl text-[#00FFA3]">
+            <a href="mailto:ieeesb@cev.ac.in" class="text-4xl text-[#00FFA3]">
                 <i class="bi bi-envelope-at"></i>
             </a>
         </div>
