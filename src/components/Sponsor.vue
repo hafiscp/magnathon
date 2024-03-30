@@ -16,23 +16,23 @@
     </div>
     <div class="mt-10 flex justify-center items-center flex-col lg:flex-row">
         <div class="bg-white w-[350px] lg:w-[400px] me-0 lg:me-6 mb-4 p-4 rounded-md" v-motion-slide-visible-bottom>
-            <img src="../assets/images/QL black logo.png" alt="Sponsor Logo QL">
+            <img src="../assets/images/QL black logo.png" alt="Quasso Liberum">
         </div>
         <div class="bg-white w-[350px] lg:w-[400px] me-0 lg:me-6 mb-4 p-4 rounded-md" v-motion-slide-visible-bottom>
-            <img src="../assets/images/Devfolio - Normal.svg" alt="Sponsor Logo Devfolio">
+            <img src="../assets/images/Devfolio - Normal.svg" alt="Devfolio">
         </div>
     </div>
     <div class="flex flex-col justify-center items-center lg:flex-row">
         <div class="bg-white me-0 lg:me-6 mb-4 p-4 rounded-md" v-motion-slide-visible-bottom>
-            <img src="../assets/images/SB Logo.png" class="w-[320px] lg:w-[450px]" alt="Sponsor Logo IEEE SB CEV">
+            <img src="../assets/images/SB Logo.png" class="w-[320px] lg:w-[450px]" alt="IEEE SB CEV">
         </div>
         <div class="bg-white w-[350px] lg:w-[400px] me-0 lg:me-6 mb-4 p-4 rounded-md" v-motion-slide-visible-bottom>
-            <img src="../assets/images/Polygon__Logo_Black.svg" alt="Sponsor Logo Polygon">
+            <img src="../assets/images/Polygon__Logo_Black.svg" alt="Polygon">
         </div>
     </div>
     <div class="flex flex-col justify-center items-center lg:flex-row">
         <div class="bg-white w-[350px] lg:w-[400px] me-0 lg:me-6 mb-4 p-4 rounded-md flex justify-center items-center" v-motion-slide-visible-bottom>
-            <img src="../assets/images/ETHIndia.png" alt="Sponsor Logo EthIndia">
+            <img src="../assets/images/ETHIndia.png" alt="EthIndia">
         </div>
     </div>
 </template>
