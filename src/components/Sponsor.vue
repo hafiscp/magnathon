@@ -19,7 +19,7 @@
             <img src="../assets/images/QL black logo.png" alt="Quasso Liberum">
         </div>
         <div class="bg-white w-[350px] lg:w-[400px] me-0 lg:me-6 mb-4 p-4 rounded-md" v-motion-slide-visible-bottom>
-            <img src="../assets/images/Devfolio - Normal.svg" alt="Devfolio">
+            <img src="../assets/images/Devfolio - Normal.svg" alt="DEVFOLIO LOGO">
         </div>
     </div>
     <div class="flex flex-col justify-center items-center lg:flex-row">
@@ -27,12 +27,12 @@
             <img src="../assets/images/SB Logo.png" class="w-[320px] lg:w-[450px]" alt="IEEE SB CEV">
         </div>
         <div class="bg-white w-[350px] lg:w-[400px] me-0 lg:me-6 mb-4 p-4 rounded-md" v-motion-slide-visible-bottom>
-            <img src="../assets/images/Polygon__Logo_Black.svg" alt="Polygon">
+            <img src="../assets/images/Polygon__Logo_Black.svg" alt="POLYGON LOGO">
         </div>
     </div>
     <div class="flex flex-col justify-center items-center lg:flex-row">
         <div class="bg-white w-[350px] lg:w-[400px] me-0 lg:me-6 mb-4 p-4 rounded-md flex justify-center items-center" v-motion-slide-visible-bottom>
-            <img src="../assets/images/ETHIndia.png" alt="EthIndia">
+            <img src="../assets/images/ETHIndia.png" alt="ETHINDIA LOGO">
         </div>
     </div>
 </template>
