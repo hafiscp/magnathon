@@ -11,10 +11,12 @@
                 <span class="font-extralight tracking-wider mt-1 text-lg text-white">April 17 - 18, 2024</span>
             </div>
             <div class="flex flex-row justify-center items-center mt-5 first-letter:font-sans text-palette-400">
-                <a class="text-lg p-2 mt-5 flex justify-evenly items-center rounded-md border-2 border-[#00FFA3]">
-                    <img src="../assets/images/Logo.png" class="w-8" alt="Devfolio">
-                    <span class="text-[#00FFA3]">Register Now</span>
-                </a>
+                    <div 
+	class="apply-button" 
+	data-hackathon-slug="magnathon2024" 
+	data-button-theme="light"
+	style="height: 44px; width: 312px"
+></div>
             </div>
             <div class="min-h-full px-2 flex flex-col justify-center items-center mb-20">
                 <div class="grid grid-cols-2 w-[50%] sm:grid-cols-4 sm:w-[100%] items-center mx-auto">
