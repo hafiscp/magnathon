@@ -3,221 +3,216 @@
         <div class="font-sans text-[#00FFA3] text-6xl" v-motion-slide-visible-bottom>
             Timeline
         </div>
-        <div class="font-sans text-[#00FFA3] text-xl">Coming Soon</div>
     </div>
-    <!-- <div class="timeline">
-        <div class="container left">
-            <div class="content" v-motion-slide-visible-bottom>
-                <h2 class="time">2017</h2>
-                <p>Abstract Submission</p>
-            </div>
+    <div class="container">
+        <div class="timeline">
+            <ul>
+                <li>
+                    <div class="timeline-content">
+                        <h3 class="date">1st Apr, 2024</h3>
+                        <h2>Abstract Submission<br><span class="time">10PM onwards</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 class="date">13th Apr, 2024</h3>
+                        <h2>Abstract Submission Closing<br><span class="time">12:00PM</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 class="date">15th Apr, 2024</h3>
+                        <h2>Shortlisted Team Release<br><span class="time">07:00PM</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 class="date">17th Apr, 2024</h3>
+                        <h2>Offline Registration<br><span class="time">8AM onwards</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 class="date">17th Apr, 2024</h3>
+                        <h2>Inauguration<br><span class="time">9:30AM-10:30AM</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 class="date">17th Apr, 2024</h3>
+                        <h2>Introduction Session<br><span class="time">10:30am - 12:30pm</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 class="date">17th Apr, 2024</h3>
+                        <h2>Hack Begins<br><span class="time">12:30PM onwards</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 class="date">17th Apr, 2024</h3>
+                        <h2>Culturals<br><span class="time">8:00PM</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 class="date">18th Apr, 2024</h3>
+                        <h2>Hack Ends<br><span class="time">11:00AM</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 class="date">18th Apr, 2024</h3>
+                        <h2>Project Evalutaion<br><span class="time">11:00AM-12:00PM</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 class="date">18th Apr, 2024</h3>
+                        <h2>Result Announcement<br><span class="time">After Evalutaion</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 class="date">18th Apr, 2024</h3>
+                        <h2>Project Presentation<br><span class="time">3:00PM</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3 class="date">18th Apr, 2024</h3>
+                        <h2>Prize Distribution<br><span class="time">Tech Fest Inauguration</span></h2>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <div class="container right">
-            <div class="content" v-motion-slide-visible-bottom>
-                <h2 class="time">2016</h2>
-                <p>Abstract Submission Closing</p>
-            </div>
-        </div>
-        <div class="container left">
-            <div class="content" v-motion-slide-visible-bottom>
-                <h2 class="time">2015</h2>
-                <p>Shortlisted Team Release</p>
-            </div>
-        </div>
-        <div class="container right">
-            <div class="content" v-motion-slide-visible-bottom>
-                <h2 class="time">2012</h2>
-                <p>Offline Registration</p>
-            </div>
-        </div>
-        <div class="container left">
-            <div class="content" v-motion-slide-visible-bottom>
-                <h2 class="time">2011</h2>
-                <p>Inauguration</p>
-            </div>
-        </div>
-        <div class="container right">
-            <div class="content" v-motion-slide-visible-bottom>
-                <h2 class="time">2007</h2>
-                <p>Introduction Session</p>
-            </div>
-        </div>
-        <div class="container left">
-            <div class="content" v-motion-slide-visible-bottom>
-                <h2 class="time">2011</h2>
-                <p>Hack Begins</p>
-            </div>
-        </div>
-        <div class="container right">
-            <div class="content" v-motion-slide-visible-bottom>
-                <h2 class="time">2007</h2>
-                <p>Culturals</p>
-            </div>
-        </div>
-        <div class="container left">
-            <div class="content" v-motion-slide-visible-bottom>
-                <h2 class="time">2011</h2>
-                <p>Hack Ends</p>
-            </div>
-        </div>
-        <div class="container right">
-            <div class="content" v-motion-slide-visible-bottom>
-                <h2 class="time">2007</h2>
-                <p>Project Evalutaion</p>
-            </div>
-        </div>
-        <div class="container left">
-            <div class="content" v-motion-slide-visible-bottom>
-                <h2 class="time">2011</h2>
-                <p>Result Announcement</p>
-            </div>
-        </div>
-        <div class="container right">
-            <div class="content" v-motion-slide-visible-bottom>
-                <h2 class="time">2007</h2>
-                <p>Prize Distribution</p>
-            </div>
-        </div>
-    </div> -->
+    </div>
 
 </template>
 
 <style scoped>
-.timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: #166F7B;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-
-/* Container around content */
 .container {
-    padding: 10px 40px;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #14374B;
+}
+
+.timeline {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
     position: relative;
-    background-color: inherit;
-    width: 50%;
 }
 
-/* The circles on the timeline */
-.container::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
+.timeline ul {
+    list-style: none;
+}
+
+.timeline ul li {
+    padding: 20px;
     background-color: #166F7B;
-    border: 4px solid #00FFA3;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-.container::after:hover {
-    background-color: #00FFA3;
-}
-
-/* Place the container to the left */
-.left {
-    left: 0;
-}
-
-/* Place the container to the right */
-.right {
-    left: 50%;
-}
-
-/* Add arrows to the left container (pointing right) */
-.left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid #166F7B;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #166F7B;
-}
-
-/* Add arrows to the right container (pointing left) */
-.right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid #166F7B;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent #166F7B transparent transparent;
-}
-
-/* Fix the circle for containers on the right side */
-.right::after {
-    left: -16px;
-}
-
-/* The actual content */
-.content {
-    padding: 15px 20px;
-    background-color: #166F7B;
-    position: relative;
-    border-radius: 6px;
     color: #00FFA3;
-    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
-.time {
-    position: absolute;
-    top: -21px;
+.timeline ul li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-content h1 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.timeline-content p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
     color: #1DCC7E;
 }
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
+.timeline-content .date {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
 
-    /* Place the timelime to the left */
-    .timeline::after {
-        left: 31px;
+.time {
+    color: #1DCC7E;
+    float: right;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .timeline:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 100%;
+        background-color: gray;
     }
 
-    /* Full-width containers */
-    .container {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
+    .timeline ul li {
+        width: 50%;
+        position: relative;
+        margin-bottom: 50px;
     }
 
-    /* Make sure that all arrows are pointing leftwards */
-    .container::before {
-        left: 60px;
-        border: medium solid #166F7B;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent #166F7B transparent transparent;
+    .timeline ul li:nth-child(odd) {
+        float: left;
+        clear: right;
+        transform: translateX(-30px);
+        border-radius: 20px 0px 20px 20px;
     }
 
-    /* Make sure all circles are at the same spot */
-    .left::after,
-    .right::after {
-        left: 15px;
+    .timeline ul li:nth-child(even) {
+        float: right;
+        clear: left;
+        transform: translateX(30px);
+        border-radius: 0px 20px 20px 20px;
     }
 
-    /* Make all right containers behave like the left ones */
-    .right {
-        left: 0%;
+    .timeline ul li::before {
+        content: "";
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: gray;
+        top: 0px;
+    }
+
+    .timeline ul li:nth-child(odd)::before {
+        transform: translate(50%, -50%);
+        right: -30px;
+    }
+
+    .timeline ul li:nth-child(even)::before {
+        transform: translate(-50%, -50%);
+        left: -30px;
+    }
+
+    .timeline-content .date {
+        position: absolute;
+        top: -30px;
+    }
+
+    .timeline ul li:hover::before {
+        background-color: #00FFA3;
     }
 }
 </style>
