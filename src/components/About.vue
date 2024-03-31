@@ -59,12 +59,12 @@
     <div class="carousel-container mt-6">
         <div class="carousel-track h-[350px] sm:h-[300px] lg:h-[200px]">
             <img src="../assets/images/img1.webp" class="carousel-img" alt="image 3 - magnathon '22">
-            <img src="../assets/images/img4.jpg" class="carousel-img" alt="image 4 - magnathon '22">
-            <img src="../assets/images/img5.jpg" class="carousel-img" alt="image 5 - magnathon '22">
-            <img src="../assets/images/img6.jpg" class="carousel-img" alt="image 6 - magnathon '22">
-            <img src="../assets/images/img7.jpg" class="carousel-img" alt="image 7 - magnathon '22">
-            <img src="../assets/images/img8.jpg" class="carousel-img" alt="image 8 - magnathon '22">
-            <img src="../assets/images/img3.jpg" class="carousel-img" alt="image 9 - magnathon '22">
+            <img src="../assets/images/img4.webp" class="carousel-img" alt="image 4 - magnathon '22">
+            <img src="../assets/images/img5.webp" class="carousel-img" alt="image 5 - magnathon '22">
+            <img src="../assets/images/img6.webp" class="carousel-img" alt="image 6 - magnathon '22">
+            <img src="../assets/images/img7.webp" class="carousel-img" alt="image 7 - magnathon '22">
+            <img src="../assets/images/img8.webp" class="carousel-img" alt="image 8 - magnathon '22">
+            <img src="../assets/images/img3.webp" class="carousel-img" alt="image 9 - magnathon '22">
         </div>
     </div>
 </template>

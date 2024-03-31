@@ -24,7 +24,7 @@
     </div>
     <div class="flex flex-col justify-center items-center lg:flex-row">
         <div class="bg-white me-0 lg:me-6 mb-4 p-4 rounded-md" v-motion-slide-visible-bottom>
-            <img src="../assets/images/SB Logo.png" class="w-[320px] lg:w-[450px]" alt="IEEE SB CEV">
+            <img src="../assets/images/SB Logo.webp" class="w-[320px] lg:w-[450px]" alt="IEEE SB CEV">
         </div>
         <div class="bg-white w-[350px] lg:w-[400px] me-0 lg:me-6 mb-4 p-4 rounded-md" v-motion-slide-visible-bottom>
             <img src="../assets/images/Polygon__Logo_Black.svg" alt="POLYGON LOGO">
