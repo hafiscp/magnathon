@@ -139,8 +139,5 @@ const isActivePage = ref('');
 function toggle() {
     isNavActive.value = !isNavActive.value;
 }
-function working() {
-    console.log("working")
-}
 
 </script>

@@ -10,13 +10,17 @@
                 <span class="font-extralight tracking-wider text-lg text-white">College of Engineering, Vadakara</span>
                 <span class="font-extralight tracking-wider mt-1 text-lg text-white">April 17 - 18, 2024</span>
             </div>
-            <div class="flex flex-row justify-center items-center mt-5 first-letter:font-sans text-palette-400">
-                    <div 
-	class="apply-button" 
-	data-hackathon-slug="magnathon2024" 
-	data-button-theme="light"
-	style="height: 44px; width: 312px"
-></div>
+            <div class="hidden first-letter:font-sans text-palette-400">
+                <div class="apply-button" data-hackathon-slug="magnathon2024" data-button-theme="light"
+                    style="height: 44px; width: 312px"></div>
+
+            </div>
+            <div class="flex flex-row justify-center items-center mt-5 first-letter:font-sans ">
+                <a href="https://magnathon2024.devfolio.co/"
+                    class="border border-[#00FFA3] flex flex-row justify-center items-center p-2 rounded-lg">
+                    <img src="../assets/images/Logo.png" class="w-10 me-1" alt="Defolio">
+                    <span class="text-[#00FFA3] text-lg">Register Now</span>
+                </a>
             </div>
             <div class="min-h-full px-2 flex flex-col justify-center items-center mb-20">
                 <div class="grid grid-cols-2 w-[50%] sm:grid-cols-4 sm:w-[100%] items-center mx-auto">

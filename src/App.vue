@@ -5,6 +5,7 @@
   import Faqs from './components/Faqs.vue'
   import Sponsor from './components/Sponsor.vue'
   import Timeline from './components/Timeline.vue'
+  import PrizePool from './components/PrizePool.vue'
 </script>
 
 <template>
@@ -12,9 +13,12 @@
   <section id="homepage" class="homepage flex flex-col md:flex-row justify-center items-center mt-20 sm:mx-10">
     <Landing />
   </section>
-  <section id="about" class="flex min-h-screen flex-col items-center justify-center py-30 About">
+  <section id="about" class="flex min-h-screen flex-col items-center justify-center py-30">
     <About />
   </section>
+  <!-- <section id="prize" class="flex min-h-screen flex-col items-center justify-center py-30">
+    <PrizePool />
+  </section> -->
   <section id="timeline" class="flex min-h-screen flex-col items-center justify-center py-30">
     <Timeline />
   </section>
