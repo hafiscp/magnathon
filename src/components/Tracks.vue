@@ -10,27 +10,27 @@
     <div class="relative">
         <div class="flex justify-between items-center">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[1800px] sm:h-[2300px] md:h-[290px] flex flex-col justify-center items-center"
+                <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[180px] sm:h-[230px] md:h-[290px] flex flex-col justify-center items-center"
                     style="background-color: #D19F2A;">
                     <img src="../assets/images/goal2.png" alt="Goals" class="rounded-sm min-w-full">
                     <span class="text-white text-xl font-semibold"></span>
                 </div>
-                <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[1800px] sm:h-[2300px] md:h-[290px] flex flex-col justify-center items-center"
+                <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[180px] sm:h-[230px] md:h-[290px] flex flex-col justify-center items-center"
                     style="background-color: #00AED9;">
                     <img src="../assets/images/goal6.png" alt="Goals" class="rounded-sm min-w-full">
                     <span class="text-white text-xl font-semibold"></span>
                 </div>
-                <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[1800px] sm:h-[2300px] md:h-[290px] flex flex-col justify-center items-center"
+                <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[180px] sm:h-[230px] md:h-[290px] flex flex-col justify-center items-center"
                     style="background-color: #FDB714;">
                     <img src="../assets/images/goal7.png" alt="Goals" class="rounded-sm min-w-full">
                     <span class="text-white text-xl font-semibold"></span>
                 </div>
-                <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[1800px] sm:h-[2300px] md:h-[290px] flex flex-col justify-center items-center"
+                <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[180px] sm:h-[230px] md:h-[290px] flex flex-col justify-center items-center"
                     style="background-color: #CD8B2A;">
                     <img src="../assets/images/goal12.png" alt="Goals" class="rounded-sm min-w-full">
                     <span class="text-white text-xl font-semibold"></span>
                 </div>
-                <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[1800px] sm:h-[2300px] md:h-[290px] flex flex-col justify-center items-center"
+                <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[180px] sm:h-[230px] md:h-[290px] flex flex-col justify-center items-center"
                     style="background-color: #48773C;">
                     <img src="../assets/images/goal13.png" alt="Goals" class="rounded-sm min-w-full">
                     <span class="text-white text-xl font-semibold"></span>
@@ -43,7 +43,7 @@
             Special Tracks
         </div>
         <div class="flex justify-center items-center mt-4">
-            <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[1800px] sm:h-[2300px] md:h-[290px] flex flex-col justify-center items-center"
+            <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[180px] sm:h-[230px] md:h-[290px] flex flex-col justify-center items-center"
                 style="background-color: #F35E5D;">
                 <img src="../assets/images/disasterManagement.png" alt="goal" class="rounded-sm min-w-full">
                 <span class="text-white text-xl font-semibold"></span>
