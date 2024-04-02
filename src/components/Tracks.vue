@@ -11,8 +11,28 @@
         <div class="flex justify-between items-center">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[1800px] sm:h-[2300px] md:h-[290px] flex flex-col justify-center items-center"
-                    v-for="track in tracks" :style="{ backgroundColor: track.bgColor }">
-                    <img :src="track.imgSrc" alt="track.name" class="rounded-sm min-w-full">
+                    style="background-color: #D19F2A;">
+                    <img src="../assets/images/goal2.png" alt="Goals" class="rounded-sm min-w-full">
+                    <span class="text-white text-xl font-semibold"></span>
+                </div>
+                <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[1800px] sm:h-[2300px] md:h-[290px] flex flex-col justify-center items-center"
+                    style="background-color: #00AED9;">
+                    <img src="../assets/images/goal6.png" alt="Goals" class="rounded-sm min-w-full">
+                    <span class="text-white text-xl font-semibold"></span>
+                </div>
+                <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[1800px] sm:h-[2300px] md:h-[290px] flex flex-col justify-center items-center"
+                    style="background-color: #FDB714;">
+                    <img src="../assets/images/goal7.png" alt="Goals" class="rounded-sm min-w-full">
+                    <span class="text-white text-xl font-semibold"></span>
+                </div>
+                <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[1800px] sm:h-[2300px] md:h-[290px] flex flex-col justify-center items-center"
+                    style="background-color: #CD8B2A;">
+                    <img src="../assets/images/goal12.png" alt="Goals" class="rounded-sm min-w-full">
+                    <span class="text-white text-xl font-semibold"></span>
+                </div>
+                <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[1800px] sm:h-[2300px] md:h-[290px] flex flex-col justify-center items-center"
+                    style="background-color: #48773C;">
+                    <img src="../assets/images/goal13.png" alt="Goals" class="rounded-sm min-w-full">
                     <span class="text-white text-xl font-semibold"></span>
                 </div>
             </div>
@@ -24,8 +44,8 @@
         </div>
         <div class="flex justify-center items-center mt-4">
             <div class="w-[150px] sm:w-[210px] md:w-[260px] h-[1800px] sm:h-[2300px] md:h-[290px] flex flex-col justify-center items-center"
-                :style="{ backgroundColor: spcTrack.bgColor }">
-                <img :src="spcTrack.imgSrc" alt="spcTrack.name" class="rounded-sm min-w-full">
+                style="background-color: #F35E5D;">
+                <img src="../assets/images/disasterManagement.png" alt="goal" class="rounded-sm min-w-full">
                 <span class="text-white text-xl font-semibold"></span>
             </div>
         </div>
@@ -48,43 +68,7 @@
 </style>
 
 <script setup>
-    import { ref } from 'vue'
 
-    const active = ref(0)
-
-    const tracks = ref([
-        {
-            name: 'Goal 2',
-            imgSrc: '/assets/images/goal2.png',
-            bgColor:'#D19F2A'
-        },
-        {
-            name: 'Goal 6',
-            imgSrc: '/assets/images/goal6.png',
-            bgColor:'#00AED9'
-        },
-        {
-            name: 'Goal 7',
-            imgSrc: '/assets/images/goal7.png',
-            bgColor: '#FDB714'
-        },
-        {
-            name: 'Goal 12',
-            imgSrc: '/assets/images/goal12.png',
-            bgColor: '#CD8B2A'
-        },
-        {
-            name: 'Goal 13',
-            imgSrc: '/assets/images/goal13.png',
-            bgColor: '#48773C'
-        },
-    ])
-
-    const spcTrack = ref({
-        name: 'Disaster Management',
-        imgSrc: '/assets/images/disasterManagement.png',
-        bgColor: '#F35E5D'
-    })
 
 
 </script>
