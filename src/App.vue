@@ -5,6 +5,7 @@
   import Faqs from './components/Faqs.vue'
   import Sponsor from './components/Sponsor.vue'
   import Timeline from './components/Timeline.vue'
+  import Tracks from './components/Tracks.vue'
   import PrizePool from './components/PrizePool.vue'
 </script>
 
@@ -16,9 +17,12 @@
   <section id="about" class="flex min-h-screen flex-col items-center justify-center py-30">
     <About />
   </section>
-  <!-- <section id="prize" class="flex min-h-screen flex-col items-center justify-center py-30">
+  <section id="prize" class="flex min-h-screen flex-col items-center justify-center py-30">
     <PrizePool />
-  </section> -->
+  </section>
+  <section id="tracks" class="flex min-h-screen flex-col items-center justify-center py-30">
+    <Tracks />
+  </section>
   <section id="timeline" class="flex min-h-screen flex-col items-center justify-center py-30">
     <Timeline />
   </section>

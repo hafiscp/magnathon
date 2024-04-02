@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-20 mb-10">
+    <div class="mt-32 mb-10">
         <div class="font-sans text-[#00FFA3] text-6xl" v-motion-slide-visible-bottom>
             Timeline
         </div>
