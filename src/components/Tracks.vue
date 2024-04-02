@@ -55,34 +55,34 @@
     const tracks = ref([
         {
             name: 'Goal 2',
-            imgSrc: '/src/assets/images/goal2.png',
+            imgSrc: '/assets/images/goal2.png',
             bgColor:'#D19F2A'
         },
         {
             name: 'Goal 6',
-            imgSrc: '/src/assets/images/goal6.png',
+            imgSrc: '/assets/images/goal6.png',
             bgColor:'#00AED9'
         },
         {
             name: 'Goal 7',
-            imgSrc: '/src/assets/images/goal7.png',
+            imgSrc: '/assets/images/goal7.png',
             bgColor: '#FDB714'
         },
         {
             name: 'Goal 12',
-            imgSrc: '/src/assets/images/goal12.png',
+            imgSrc: '/assets/images/goal12.png',
             bgColor: '#CD8B2A'
         },
         {
             name: 'Goal 13',
-            imgSrc: '/src/assets/images/goal13.png',
+            imgSrc: '/assets/images/goal13.png',
             bgColor: '#48773C'
         },
     ])
 
     const spcTrack = ref({
         name: 'Disaster Management',
-        imgSrc: '/src/assets/images/disasterManagement.png',
+        imgSrc: '/assets/images/disasterManagement.png',
         bgColor: '#F35E5D'
     })
 
