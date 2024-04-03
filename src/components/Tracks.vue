@@ -7,38 +7,107 @@
     <div class="relative mt-2">
         <div class="flex justify-between items-center">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div class="w-[250px] sm:w-[450px] md:w-[350px] h-[560px] flex flex-col justify-start items-start px-2 rounded-xl overflow-y-scroll"
+                <div class="w-[270px] sm:w-[450px] md:w-[350px] h-[250px] sm:h-[180px] md:h-[560px] flex flex-col justify-start items-start px-2 rounded-xl overflow-y-scroll relative"
                     style="background-color:rgba(67, 72, 69,0.5); scrollbar-width: none;" v-for="track in tracks">
-                    <img :src="track.imgSrc" alt="Goals" class="w-24 md:w-36 mt-2 ms-2 inline">
-                    <span class="text-white mt-2">{{ track.heading }}</span>
-                    <p class="text-white mt-2 font-bold">{{ track.subHeading }}</p>
-                    <p class="text-white mt-2">{{ track.ulHeading }}
-                    <ul v-for="list in track.lists" class="list-disc list-inside">
-                        <li>{{ list }}</li>
-                    </ul>
-                    </p>
+                    <div class="block">
+                        <div class="flex justify-between">
+                            <img :src="track.imgSrc" alt="Goals" class="w-24 md:w-36 mt-2 ms-2 inline">
+                            <span class="text-white mt-2 mx-2 font-bold text-xl">{{ track.heading }}</span>
+                        </div>
+                        <p class="text-white mt-2 font-bold">{{ track.subHeading }}</p>
+                        <p class="text-white mt-2 hidden md:block">{{ track.ulHeading }}
+                        <ul v-for="list in track.lists" class="list-disc list-inside">
+                            <li>{{ list }}</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="md:hidden absolute bottom-4 right-4">
+                        <button class="text-3xl text-white" @click="track.active = !track.active"><i
+                                class="bi bi-arrow-up-short"></i></button>
+                    </div>
+                    <div class="w-full fixed z-50 bottom-[-18%] left-0 overflow-hidden duration-300"
+                        :style="[track.active ? 'height: 100%' : 'height: 0%']">
+                        <div class="text-white w-full flex justify-end text-3xl">
+                            <button @click="track.active = !track.active"><i class="bi bi-x me-8 mb-4"></i></button>
+                        </div>
+                        <div class="h-[80%] bg-[#166F7B] rounded-t-3xl">
+                            <div class="block p-4 overflow-scroll">
+                                <div class="flex justify-between">
+                                    <img :src="track.imgSrc" alt="Goals" class="w-24 md:w-36 mt-2 ms-2 inline">
+                                    <span class="text-[#1DCC7E] mt-2 mx-2 font-bold text-xl">{{ track.heading }}</span>
+                                </div>
+                                <p class="text-[#1DCC7E] mt-2 font-bold">{{ track.subHeading }}</p>
+                                <p class="text-[#1DCC7E] mt-2">{{ track.ulHeading }}
+                                <ul v-for="list in track.lists" class="list-disc list-inside">
+                                    <li>{{ list }}</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="w-[250px] sm:w-[450px] md:w-[350px] h-[560px] flex flex-col justify-start items-start px-2 rounded-xl overflow-y-scroll"
+                <div class="w-[270px] sm:w-[450px] md:w-[350px] h-[250px] sm:h-[180px] md:h-[560px] flex flex-col justify-start items-start px-2 rounded-xl overflow-y-scroll"
                     style="background-color:rgba(67, 72, 69,0.5);scrollbar-width: none;">
-                    <img src="/src/assets/images/disasterManagement.png" alt="Goals"
-                        class="w-24 md:w-36 mt-2 ms-2 inline">
-                    <span class="text-white mt-2">Problem statement 6: Disaster Management</span>
-                    <p class="text-white mt-2 font-bold">"The frequency of disasters is increasing due to various
-                        factors, including climate
-                        change, urbanization, population growth, environmental degrada?on, and socio-economic
-                        vulnerabilities."</p>
-                    <p class="text-white mt-2">
-                        Targets:
-                    <ul class="text-white list-disc list-inside">
-                        <li>Develop or enhance early warning systems using real-time data.</li>
-                        <li> Create platforms for efficient coordination among first responders, organizations,
-                            and communities during disaster response.</li>
-                        <li>Empower communities to build resilience through education, training, and
-                            planning.</li>
-                        <li>Create innovative solutions for temporary shelters, emergency housing, and
-                            essential infrastructure in disaster-affected areas.</li>
-                    </ul>
-                    </p>
+                    <div>
+                        <div class="flex justify-between">
+                            <img src="/src/assets/images/disasterManagement.png" alt="Goals"
+                                class="w-24 md:w-36 mt-2 ms-2 inline">
+                            <span class="text-white mt-2 ms-2 font-bold text-md sm:text-xl">6. Disaster
+                                Management</span>
+                        </div>
+                        <p class="text-white mt-2 font-bold">"Enhance Resilience and Preparedness for Effective Disaster
+                            Management"</p>
+                        <p class="text-white mt-2 hidden md:block">
+                            Targets:
+                        <ul class="text-white list-disc list-inside hidden md:block">
+                            <li>Develop or enhance early warning systems using real-time data.</li>
+                            <li> Create platforms for efficient coordination among first responders, organizations,
+                                and communities during disaster response.</li>
+                            <li>Empower communities to build resilience through education, training, and
+                                planning.</li>
+                            <li>Create innovative solutions for temporary shelters, emergency housing, and
+                                essential infrastructure in disaster-affected areas.</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="md:hidden absolute bottom-4 right-4">
+                        <button class="text-3xl text-white" @click="disasterActive = !disasterActive"><i
+                                class="bi bi-arrow-up-short"></i></button>
+                    </div>
+                    <div class="w-full fixed z-50 bottom-[-18%] left-0 overflow-hidden duration-300"
+                        :style="[disasterActive ? 'height: 100%' : 'height: 0%']">
+                        <div class="text-white w-full flex justify-end text-3xl">
+                            <button @click="disasterActive = !disasterActive"><i class="bi bi-x me-8 mb-4"></i></button>
+                        </div>
+                        <div class="h-[80%] bg-[#166F7B] rounded-t-3xl">
+                            <div class="p-4">
+                                <div class="flex justify-between">
+                                    <img src="/src/assets/images/disasterManagement.png" alt="Goals"
+                                        class="w-24 md:w-36 mt-2 ms-2 inline">
+                                    <span class="text-[#1DCC7E] mt-2 ms-2 font-bold text-md sm:text-xl">6. Disaster
+                                        Management</span>
+                                </div>
+                                <p class="text-[#1DCC7E] mt-2 font-bold">"Enhance Resilience and Preparedness for Effective
+                                    Disaster
+                                    Management"</p>
+                                <p class="text-[#1DCC7E] mt-2">
+                                    Targets:
+                                <ul class="text-[#1DCC7E] list-disc list-inside">
+                                    <li>Develop or enhance early warning systems using real-time data.</li>
+                                    <li> Create platforms for efficient coordination among first responders,
+                                        organizations,
+                                        and communities during disaster response.</li>
+                                    <li>Empower communities to build resilience through education, training, and
+                                        planning.</li>
+                                    <li>Create innovative solutions for temporary shelters, emergency housing, and
+                                        essential infrastructure in disaster-affected areas.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,7 +137,7 @@ import { ref } from 'vue';
 
 const tracks = ref([
     {
-        heading: `Problem statement 1: Zero Hunger`,
+        heading: `1. Zero Hunger`,
         subHeading: `"End hunger, achieve food security, improve nutrition, and promote sustainable agriculture."`,
         ulHeading: `Targets:`,
         lists: [
@@ -77,10 +146,10 @@ const tracks = ref([
             `A mechanism to manage wastage of food.`
         ],
         imgSrc: '/src/assets/images/goal2.png',
-        bg: '#D19F2A'
+        active: false
     },
     {
-        heading: `Problem statement 2: Climate Change`,
+        heading: `2. Climate Change`,
         subHeading: `"Take urgent action to combat climate change and its impacts."`,
         ulHeading: `Targets:`,
         lists: [
@@ -90,10 +159,10 @@ const tracks = ref([
             `Promote mechanisms for raising capacity for effective climate change-related planning and management.`
         ],
         imgSrc: '/src/assets/images/goal13.png',
-        bg: ''
+        active: false
     },
     {
-        heading: `Problem statement 3: Affordable and Clean Energy`,
+        heading: `3. Affordable and Clean Energy`,
         subHeading: `"Ensure access to affordable, reliable, sustainable and clean energy for all."`,
         ulHeading: `Targets:`,
         lists: [
@@ -103,10 +172,10 @@ const tracks = ref([
             `Expand infrastructure and upgrade technology for supplying modern and sustainable energy services.`
         ],
         imgSrc: '/src/assets/images/goal7.png',
-        bg: ''
+        active: false
     },
     {
-        heading: `Problem statement 4: Clean Water and Sanitation`,
+        heading: `4. Clean Water and Sanitation`,
         subHeading: `"Ensure access to water and sanitation for all."`,
         ulHeading: `Targets:`,
         lists: [
@@ -118,10 +187,10 @@ const tracks = ref([
             `Expand water and sanitation support in remote areas.`
         ],
         imgSrc: '/src/assets/images/goal6.png',
-        bg: ''
+        active: false
     },
     {
-        heading: `Problem statement 5: Responsible Production and Consumption`,
+        heading: `5. Responsible Production and Consumption`,
         subHeading: `"Ensure sustainable consumption and production patterns."`,
         ulHeading: `Targets:`,
         lists: [
@@ -132,9 +201,10 @@ const tracks = ref([
             `Educate and empower consumers to make sustainable choices.`
         ],
         imgSrc: '/src/assets/images/goal12.png',
-        bg: ''
+        active: false
     }
 ]);
 
+const disasterActive = ref(false);
 
 </script>
