@@ -19,7 +19,8 @@
                 </svg>
             </button>
             <div class="overflow-hidden rounded-[5px] font-lg transition-[height] transition-700 ease-in-out"
-                :class="{ 'inActiveAnswer': !each.opened, 'activeAnswer': each.opened }">
+                :class="{ 'inActiveAnswer': !each.opened }" ref="answer"
+                :style="[each.opened ? height = each.scrollheight : height = 0]">
                 <p class="px-5 text-white">
                     {{ each.answer }}
                 </p>
@@ -44,37 +45,58 @@
             <a href="mailto:ieeesb@cev.ac.in" class="text-4xl text-[#00FFA3]">
                 <i class="bi bi-envelope-at"></i>
             </a>
+            <a href="https://wa.me/+919540216512" class="text-4xl text-[#00FFA3]">
+                <i class="bi bi-whatsapp"></i>
+            </a>
         </div>
     </div>
 
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 const faqs = ref([
     {
         'question': 'How much is the participation fee?',
         'answer': "It's completely free!",
-        opened: false
+        opened: false,
+        scrollheight: ''
     },
     {
         'question': 'Who all can participate?',
         'answer': `All undergraduate students from any college are welcome to participate.`,
-        opened: false
+        opened: false,
+        scrollheight: ''
     },
     {
         'question': 'How many people per team?',
         'answer': "Two to four people per team.",
-        opened: false
+        opened: false,
+        scrollheight: ''
+    },
+    {
+        'question': 'Who can participate?',
+        'answer': `Open to all`,
+        opened: false,
+        scrollheight: ''
     },
     {
         'question': 'What are the prerequisties needed?',
         'answer': "Hardware materials should bring by the participants. Other facilities to build will be provided.",
-        opened: false
+        opened: false,
+        scrollheight: ''
     },
-
 ])
 
+const answer = ref([])
+
+onMounted(() => {
+    answer.value.map((each, id) => {
+        faqs.value[id].scrollheight = each.scrollHeight
+    })
+
+    console.log(faqs.value[4].scrollheight)
+})
 
 </script>
 
@@ -86,11 +108,6 @@ const faqs = ref([
 
 .inActiveAnswer {
     height: 0;
-    visibility: hidden;
-}
-
-.activeAnswer {
-    height: 100px;
-    visibility: visible;
+    overflow: hidden;
 }
 </style>

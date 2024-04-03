@@ -99,7 +99,6 @@
     align-items: center;
     justify-content: center;
     padding: 100px 0;
-    background-color: #14374B;
 }
 
 .timeline {
