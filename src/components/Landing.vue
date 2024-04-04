@@ -1,5 +1,5 @@
 <template>
-    <div class="md:w-1/2 text-center relative" v-motion-roll-visible-once-top>
+    <div class="md:w-1/2 text-center relative">
         <div
             class="text-6xl md:text-8xl font-sans font-bold text-palette-200 flex flex-col justify-center items-center">
             <h2 class="hero glitch layers" data-text="Magnathon 2.0"><span>Magnathon</span></h2>
@@ -307,7 +307,7 @@
         }
     
         .paths {
-            animation: paths 5s step-end infinite;
+            animation: paths 6s step-end infinite;
         }
     
         @keyframes paths {
@@ -553,7 +553,7 @@
         .movement {
             /* Normally this position would be absolute & on the layers, set to relative here so we can see it on the div */
             position: relative;
-            animation: movement 8s step-end infinite;
+            animation: movement 200s step-end infinite;
         }
     
         @keyframes movement {
@@ -680,7 +680,7 @@ const days = ref(0);
 const hours = ref(0);
 const minutes = ref(0);
 const seconds = ref(0);
-const countDownDate = new Date("Apr 14, 2024 15:37:25").getTime();
+const countDownDate = new Date("Apr 17, 2024 09:00:00").getTime();
 
 const updateCountdown = () => {
     let now = new Date().getTime();

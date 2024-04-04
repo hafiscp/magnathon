@@ -4,10 +4,10 @@
             FAQs
         </div>
     </div>
-    <div class="border-2 border-[#14374B] border-b-white" v-for="each in faqs" v-motion-slide-visible-bottom>
-        <div class="w-auto sm:w-[550px] md:w-[750px] rounded-md border-10 m-4">
+    <div class="border-2 border-[transparent] border-b-white" v-for="(each, id) in faqs" v-motion-slide-visible-bottom>
+        <div class="w-[289px] sm:w-[550px] md:w-[750px] rounded-md border-10 m-4">
             <button class="flex w-full items-center justify-between rounded-[5px] p-5 font-bold font-lg text-white "
-                @click="each.opened = !each.opened">
+                @click="makeVisible(id)">
                 {{ each.question }}
                 <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
                     stroke-linejoin="round"
@@ -18,9 +18,7 @@
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
             </button>
-            <div class="overflow-hidden rounded-[5px] font-lg transition-[height] transition-700 ease-in-out"
-                :class="{ 'inActiveAnswer': !each.opened }" ref="answer"
-                :style="[each.opened ? height = each.scrollheight : height = 0]">
+            <div class="overflow-hidden rounded-[5px] font-lg transition-[height] transition-1000 ease-in-out inActiveAnswer" ref="answer">
                 <p class="px-5 text-white">
                     {{ each.answer }}
                 </p>
@@ -64,19 +62,13 @@ const faqs = ref([
     },
     {
         'question': 'Who all can participate?',
-        'answer': `All undergraduate students from any college are welcome to participate.`,
+        'answer': `All undergraduate students from any college are welcome to participate. It is Free for all`,
         opened: false,
         scrollheight: ''
     },
     {
         'question': 'How many people per team?',
         'answer': "Two to four people per team.",
-        opened: false,
-        scrollheight: ''
-    },
-    {
-        'question': 'Who can participate?',
-        'answer': `Open to all`,
         opened: false,
         scrollheight: ''
     },
@@ -90,13 +82,13 @@ const faqs = ref([
 
 const answer = ref([])
 
-onMounted(() => {
-    answer.value.map((each, id) => {
-        faqs.value[id].scrollheight = each.scrollHeight
-    })
-
-    console.log(faqs.value[4].scrollheight)
-})
+function makeVisible(id) {
+    if (answer.value[id].style.height == '') {
+        answer.value[id].style.height = answer.value[id].scrollHeight + 'px';
+    } else {
+        answer.value[id].style.height = '';
+    }
+}
 
 </script>
 
