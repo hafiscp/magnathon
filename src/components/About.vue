@@ -1,50 +1,29 @@
 <template>
-    <hr class="border border-[#166F7B] mx-[10%] w-[80%]">
-    <h1 class="index-module_type__E-SaG font-bold text-[20px] sm:text-[36px] md:text-[48px] text-center my-[3%] text-[#00FFA3]"
-        id="header" v-motion-slide-visible-bottom>
-    </h1>
-    <hr class="border border-[#166F7B] mx-[10%] w-[70%]">
-    <div class="py-10 md:px-16" id="about">
-        <div class="w-full flex flex-col justify-center items-center px-8">
-            <div class="flex flex-col xl:flex-row w-[100%]">
-                <div class="about-card flex flex-col justify-center w-[100%] xl:w-[50%] me-4 mb-4 order-2 xl:order-1 p-2 md:p-4"
-                    v-motion-slide-visible-left>
-                    <p class="text-[20px] 2xl:text-[36px] font-bold text-[#00FFA3] mb-2">What is Magnathon ?</p>
-                    <p class="text-white">Magnathon 2.0 is a 24-hour national-level hackathon hosted by IEEE Student
-                        Branch College of Engineering Vadakara during the College's annual tech fest, Quasso Liberum 11.
-                        Our
-                        focus is on tackling sustainability challenges such as climate change, energy use, environmental
-                        monitoring, disaster management, zero hunger, sustainable education, and tech-driven solutions
-                        aligned with the UN Sustainable Development Goals for a better future.</p>
-                </div>
-                <div class="xl:w-1/2 flex flex-col justify-center items-center relative order-1 xl:order-2 mb-4"
-                    v-motion-slide-visible-right>
-                    <div class="w-full flex items-center rounded-lg">
-                        <img src="../assets/images/img1.webp" class="about-carousel" alt="image 1 - magnathon '22">
-                    </div>
-                </div>
-            </div>
+    
+    <div class="z-50 flex flex-col justify-center items-center">
+        <div class="mt-20">
+            <h1 class="text-[#031d44] text-7xl font-semibold">About</h1>
+            <hr class="mt-10 border-4 border-[#F87666] mx-[10%] w-[70%]">
         </div>
-    </div>
-    <div class="py-10 md:px-16">
-        <div class="w-full flex flex-col justify-center items-center px-8">
-            <div class="flex flex-col xl:flex-row w-[100%]">
-                <div class="xl:w-1/2 flex flex-col justify-center items-center relative xl:me-4 mb-4"
-                    v-motion-slide-visible-left>
-                    <div class="w-full flex items-center rounded-lg">
-                        <img src="../assets/images/img2.webp" class="about-carousel" alt="image 2 - magnathon '22">
-                    </div>
-                </div>
-                <div class="about-card flex flex-col justify-center w-[100%] xl:w-[50%] me-4 mb-4 p-2 md:p-4"
-                    v-motion-slide-visible-right>
-                    <p class="text-[20px] 2xl:text-[36px] font-bold text-[#00FFA3] mb-2">About Magnathon 1.0</p>
-                    <p class="text-white">The first edition of Magnathon, organized by IEEE SB CEV as part of Quasso
-                        Liberum 10, received international recognition last year by earning a bronze medal in the Darrel
-                        Chong Student Activity Award presented by IEEE. The event saw a huge registration of over 500
-                        individuals, out of which 100 were shortlisted by a distinguished panel based on their abstract
-                        submissions. The final event had 30 teams participating.</p>
-                </div>
-
+        <div class="py-10 md:px-16 w-full flex flex-col md:flex-row justify-center items-center mt-4">
+            <div class="about-card">
+                <h2 class="text-lg font-semibold text-center text-[#031d44]">What is Hackathon ?</h2>
+                <p class="mt-2 text-[rgba(3,33,78,0.7)]">A hackathon is an invention and innovation competition for
+                    technology. A hackathon is a
+                    learning experience where students can come to use technology to learn new software, hardware,
+                    skills,
+                    and techniques by creating a project with a team of up to 4 people throughout the event.</p>
+            </div>
+            <div class="about-card">
+                <h2 class="text-lg font-semibold text-center text-[#031d44]">What is Magnathon ?</h2>
+                <p class="mt-2 text-[rgba(3,33,78,0.7)]">Magnathon 2.0 is a 24-hour national-level hackathon hosted by
+                    IEEE
+                    Student Branch College of
+                    Engineering Vadakara during the College's annual tech fest, Quasso Liberum 11. Our focus is on
+                    tackling
+                    sustainability challenges such as climate change, energy use, environmental monitoring, disaster
+                    management, zero hunger, sustainable education, and tech-driven solutions aligned with the UN
+                    Sustainable Development Goals for a better future.</p>
             </div>
         </div>
     </div>
@@ -71,14 +50,14 @@
 
 <style scoped>
 .about-card {
-
-    box-shadow: 6px 6px #166F7B;
-    border-radius: 1rem;
-    border-width: 1px;
-    --tw-border-opacity: 1;
-    border-color: #166F7B;
-    --tw-bg-opacity: 1;
-    background-color: #14374B;
+    width: 320px;
+    height: 400px;
+    background-color: #fffff2;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    margin: 1rem;
+    border: #14374B 0.01rem solid;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
 }
 
 .about-carousel {
@@ -174,7 +153,7 @@ span {
     }
 }
 
-@media (max-width: 538px){
+@media (max-width: 538px) {
     @keyframes slide {
         0% {
             transform: translate(0)
@@ -211,47 +190,5 @@ span {
 
 <script setup>
 
-document.addEventListener('DOMContentLoaded', function (event) {
-    // array with texts to type in typewriter
-    const dataText = ["Code, Solve, Repeat", "Innovation Starts Here", "Crack the Code, Shape the Future", "Challenge Accepted"];
-
-    // type one text in the typwriter
-    // keeps calling itself until the text is finished
-    function typeWriter(text, i, fnCallback) {
-        // chekc if text isn't finished yet
-        if (i < (text.length)) {
-            // add next character to h1
-            document.querySelector("h1").innerHTML = text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
-
-            // wait for a while and call this function again for next character
-            setTimeout(function () {
-                typeWriter(text, i + 1, fnCallback)
-            }, 100);
-        }
-        // text finished, call callback if there is a callback function
-        else if (typeof fnCallback == 'function') {
-            // call callback after timeout
-            setTimeout(fnCallback, 700);
-        }
-    }
-    // start a typewriter animation for a text in the dataText array
-    function StartTextAnimation(i) {
-        if (typeof dataText[i] == 'undefined') {
-            setTimeout(function () {
-                StartTextAnimation(0);
-            }, 20000);
-        }
-        // check if dataText[i] exists
-        if (i < dataText[i].length) {
-            // text exists! start typewriter animation
-            typeWriter(dataText[i], 0, function () {
-                // after callback (and whole text has been animated), start next text
-                StartTextAnimation(i + 1);
-            });
-        }
-    }
-    // start the text animation
-    StartTextAnimation(0);
-});
 
 </script>
