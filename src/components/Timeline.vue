@@ -1,8 +1,7 @@
 <template>
-    <div class="mt-32 mb-10">
-        <div class="font-sans text-[#00FFA3] text-6xl" v-motion-slide-visible-bottom>
-            Timeline
-        </div>
+    <div class="mt-20">
+        <h1 class="text-[#031d44] text-7xl font-semibold">Timeline</h1>
+        <hr class="mt-10 border-4 border-[#F87666] mx-[10%] w-[70%]">
     </div>
     <div class="container">
         <div class="timeline">
@@ -92,6 +91,10 @@
 </template>
 
 <style scoped>
+h1{
+    font-family: 'Orbitron';
+}
+
 .container {
     min-height: 100vh;
     width: 100%;

@@ -68,7 +68,7 @@
 }
 
 .optionsNavigation {
-    color: white;
+    color: #031d44;
     width: 40%;
     justify-content: space-between;
     align-items: center;

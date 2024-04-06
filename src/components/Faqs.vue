@@ -4,9 +4,9 @@
             FAQs
         </div>
     </div>
-    <div class="border-2 border-[transparent] border-b-white" v-for="(each, id) in faqs" v-motion-slide-visible-bottom>
+    <div class="border-2 border-[transparent] border-b-[#00FFA3]" v-for="(each, id) in faqs" v-motion-slide-visible-bottom>
         <div class="w-[289px] sm:w-[550px] md:w-[750px] rounded-md border-10 m-4">
-            <button class="flex w-full items-center justify-between rounded-[5px] p-5 font-bold font-lg text-white "
+            <button class="flex w-full items-center justify-between rounded-[5px] p-5 font-bold font-lg text-[#00FFA3] "
                 @click="makeVisible(id)">
                 {{ each.question }}
                 <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
@@ -19,7 +19,7 @@
                 </svg>
             </button>
             <div class="overflow-hidden rounded-[5px] font-lg transition-[height] transition-1000 ease-in-out inActiveAnswer" ref="answer">
-                <p class="px-5 text-white">
+                <p class="px-5 text-[#00FFA3]">
                     {{ each.answer }}
                 </p>
             </div>
@@ -28,7 +28,7 @@
     <div class="flex flex-col items-center text-base h-full my-auto px-6 lg:px-0 mt-6">
         <div class="text-[#00FFA3]">Have More Questions</div>
         <div class="font-sans font-bold text-5xl text-center text-[#00FFA3]">Get in Touch</div>
-        <div class="font-sans text-center mt-8 w-full sm:w-4/5 lg:w-2/5 text-white">
+        <div class="font-sans text-center mt-8 w-full sm:w-4/5 lg:w-2/5 text-[#00FFA3]">
             Got questions, cool ideas, or just want to chat? We're all ears! Whether it's a tech glitch or you're unsure
             about team stuff, hit us up. Our virtual door is always open. Shoot us an email, drop a message, or slide
             into our DMs—we're here for you. Let's make this hackathon experience awesome together!

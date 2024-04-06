@@ -3,7 +3,7 @@
         <div
             class="text-6xl md:text-8xl font-sans font-bold text-palette-200 flex flex-col justify-center items-center mt-10">
             <div
-                class=" flex-col lg:flex-row justify-center items-center mt-5 first-letter:font-sans hidden lg:flex">
+                class=" flex-col lg:flex-row justify-center items-center mt-5 first-letter:font-sans ">
                 <div class="text-[50px] text-[#79F7FF] flex justify-center items-center"><i class="bi bi-dot"></i><span
                         class="font-extralight tracking-wider text-lg text-white">17 - 18 April, 2024</span></div>
 
@@ -681,26 +681,5 @@
 </style>
 
 <script setup>
-import { ref, onMounted } from 'vue';
 
-const days = ref(0);
-const hours = ref(0);
-const minutes = ref(0);
-const seconds = ref(0);
-const countDownDate = new Date("Apr 17, 2024 09:00:00").getTime();
-
-const updateCountdown = () => {
-    let now = new Date().getTime();
-    let distance = countDownDate - now;
-
-    days.value = Math.floor(distance / (1000 * 60 * 60 * 24));
-    hours.value = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    minutes.value = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    seconds.value = Math.floor((distance % (1000 * 60)) / 1000);
-};
-
-onMounted(() => {
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
-});
 </script>
