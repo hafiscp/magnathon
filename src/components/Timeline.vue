@@ -1,217 +1,157 @@
 <template>
-    <div class="mt-32 mb-10">
-        <div class="font-sans text-[#00FFA3] text-6xl" v-motion-slide-visible-bottom>
-            Timeline
+    <div class="mt-20">
+        <h1 class="text-[#031d44] text-7xl font-semibold">Timeline</h1>
+        <hr class="mt-10 border-4 border-[#F87666] mx-[10%] w-[70%]">
+    </div>
+    <div class="flex flex-col justify-center items-center mt-8">
+        <div class="flex flex-col justify-center items-center">
+            <div class="time-box mt-4 w-[300px] rounded-2xl">
+                <span>1 Apr, 2024</span>
+                <span>Registration Started</span>
+            </div>
+            <div class="time-box mt-4 w-[300px] rounded-2xl">
+                <span>13 Apr, 2024</span>
+                <span>Registration Closed</span>
+            </div>
+            <div class="time-box mt-4 w-[300px] rounded-2xl">
+                <span>15 Apr, 2024</span>
+                <span>Shortlisted Team Release</span>
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+                <button class="mt-4 w-[180px] lg:w-[300px] rounded-2xl"
+                :class="[toggleId === 0 ? 'active' : 'time-box']"
+                @click="toggleId = 0">
+                    <span>17 Apr, 2024</span>
+                    <span>Day 1 Hacking</span>
+                </button>
+                <button class="time-box mt-4 w-[180px] lg:w-[300px] rounded-2xl"
+                :class="[toggleId === 1 ? 'active' : 'time-box']"
+                @click="toggleId = 1">
+                    <span>18 Apr, 2024</span>
+                    <span>Day 2 Hacking</span>
+                </button>
+            </div>
+        </div>
+        <div class="w-full flex justify-center items-start mt-8 overflow-hidden">
+            <div :class="[toggleId === 0 ? 'active-time' : 'inactive-time' ]">
+                <div class="flex flex-col justify-center items-center">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                        <span>08 : 00 AM</span>
+                        <span class="font-semibold">Offline Registration</span>
+                    </div>
+                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                        <span>09 : 30 AM</span>
+                        <span class="font-semibold">Inauguration</span>
+                    </div>
+                    <hr class="m-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                        <span>10 : 30 AM</span>
+                        <span class="font-semibold">Introduction Session</span>
+                    </div>
+                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                        <span>12 : 30 PM</span>
+                        <span class="font-semibold">Hack Begins</span>
+                    </div>
+                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                        <span>08 : 00 PM</span>
+                        <span class="font-semibold">Culturals</span>
+                    </div>
+                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                </div>
+            </div>
+            <div :class="[toggleId === 1 ? 'active-time' : 'inactive-time' ]">
+                <div class="flex flex-col justify-center items-center">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                        <span>11 : 00 AM</span>
+                        <span class="font-semibold">Hack Ends</span>
+                    </div>
+                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                        <span>11 : 00 AM</span>
+                        <span class="font-semibold">Project Evaluation</span>
+                    </div>
+                    <hr class="m-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                        <span>After Evaluation</span>
+                        <span class="font-semibold">Result Announcement</span>
+                    </div>
+                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                        <span>03 : 00 PM</span>
+                        <span class="font-semibold">Project Presentation</span>
+                    </div>
+                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-start">
+                        <span class="ms-20 lg:ms-0">Tech Fest Inaugration</span>
+                        <span class="font-semibold">Prize Distribution</span>
+                    </div>
+                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                        <span>18 Apr, 2024</span>
+                        <span class="font-semibold">Day 2 Hacking</span>
+                    </div>
+                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                </div>
+            </div>
         </div>
     </div>
-    <div class="container">
-        <div class="timeline">
-            <ul>
-                <li>
-                    <div class="timeline-content">
-                        <h3 class="date">1st Apr, 2024</h3>
-                        <h2>Abstract Submission<br><span class="time">10PM onwards</span></h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3 class="date">13th Apr, 2024</h3>
-                        <h2>Abstract Submission Closing<br><span class="time">12:00PM</span></h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3 class="date">15th Apr, 2024</h3>
-                        <h2>Shortlisted Team Release<br><span class="time">07:00PM</span></h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3 class="date">17th Apr, 2024</h3>
-                        <h2>Offline Registration<br><span class="time">8AM onwards</span></h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3 class="date">17th Apr, 2024</h3>
-                        <h2>Inauguration<br><span class="time">9:30AM-10:30AM</span></h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3 class="date">17th Apr, 2024</h3>
-                        <h2>Introduction Session<br><span class="time">10:30am - 12:30pm</span></h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3 class="date">17th Apr, 2024</h3>
-                        <h2>Hack Begins<br><span class="time">12:30PM onwards</span></h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3 class="date">17th Apr, 2024</h3>
-                        <h2>Culturals<br><span class="time">8:00PM</span></h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3 class="date">18th Apr, 2024</h3>
-                        <h2>Hack Ends<br><span class="time">11:00AM</span></h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3 class="date">18th Apr, 2024</h3>
-                        <h2>Project Evalutaion<br><span class="time">11:00AM-12:00PM</span></h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3 class="date">18th Apr, 2024</h3>
-                        <h2>Result Announcement<br><span class="time">After Evalutaion</span></h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3 class="date">18th Apr, 2024</h3>
-                        <h2>Project Presentation<br><span class="time">3:00PM</span></h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-content">
-                        <h3 class="date">18th Apr, 2024</h3>
-                        <h2>Prize Distribution<br><span class="time">Tech Fest Inauguration</span></h2>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-
 </template>
 
 <style scoped>
-.container {
-    min-height: 100vh;
-    width: 100%;
+.time-box, .active{
+    font-family: 'Orbitron';
+    color: #fffff2;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    padding: 100px 0;
+    align-items: center;
+    padding: 1.5rem;
 }
 
-.timeline {
-    width: 80%;
-    height: auto;
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
+.time-box{
+    background: #031d44;
 }
 
-.timeline ul {
-    list-style: none;
+.active{
+    background: #F87666;
 }
 
-.timeline ul li {
-    padding: 20px;
-    background-color: #166F7B;
-    color: #00FFA3;
-    border-radius: 10px;
-    margin-bottom: 20px;
+.active-time{
+    width: 100%;
+    overflow: hidden;
 }
 
-.timeline ul li:last-child {
-    margin-bottom: 0;
+.inactive-time{
+    width: 0;
+    overflow: hidden;
 }
 
-.timeline-content h1 {
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 10px;
-}
-
-.timeline-content p {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 300;
-    color: #1DCC7E;
-}
-
-.timeline-content .date {
-    font-size: 12px;
-    font-weight: 300;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
-}
-
-.time {
-    color: #1DCC7E;
-    float: right;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-@media only screen and (min-width: 768px) {
-    .timeline:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 2px;
-        height: 100%;
-        background-color: gray;
-    }
-
-    .timeline ul li {
-        width: 50%;
-        position: relative;
-        margin-bottom: 50px;
-    }
-
-    .timeline ul li:nth-child(odd) {
-        float: left;
-        clear: right;
-        transform: translateX(-30px);
-        border-radius: 20px 0px 20px 20px;
-    }
-
-    .timeline ul li:nth-child(even) {
-        float: right;
-        clear: left;
-        transform: translateX(30px);
-        border-radius: 0px 20px 20px 20px;
-    }
-
-    .timeline ul li::before {
-        content: "";
-        position: absolute;
-        height: 20px;
-        width: 20px;
-        border-radius: 50%;
-        background-color: gray;
-        top: 0px;
-    }
-
-    .timeline ul li:nth-child(odd)::before {
-        transform: translate(50%, -50%);
-        right: -30px;
-    }
-
-    .timeline ul li:nth-child(even)::before {
-        transform: translate(-50%, -50%);
-        left: -30px;
-    }
-
-    .timeline-content .date {
-        position: absolute;
-        top: -30px;
-    }
-
-    .timeline ul li:hover::before {
-        background-color: #00FFA3;
-    }
-}
 </style>
+
+<script setup>
+    import { ref } from 'vue';
+
+    const toggleId = ref(0);
+
+</script>

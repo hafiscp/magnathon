@@ -1,14 +1,13 @@
 <template>
-    <div class="mt-32 mb-4">
-        <div class="font-sans text-[#00FFA3] text-6xl text-center" v-motion-slide-visible-bottom>
-            Tracks
-        </div>
+    <div class="mt-20 z-10">
+        <h1 class="text-[#031d44] text-7xl font-semibold text-center">Tracks ?</h1>
+        <hr class="mt-4 md:mt-10 border-4 border-[#F87666] mx-[10%] w-[70%]">
     </div>
-    <div class="relative mt-2">
+    <div class="relative mt-16">
         <div class="flex justify-between items-center">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div class="w-[270px] sm:w-[450px] md:w-[350px] h-[250px] sm:h-[180px] md:h-[560px] flex flex-col justify-start items-start px-2 rounded-xl overflow-y-scroll relative"
-                    style="background-color:rgba(67, 72, 69,0.5); scrollbar-width: none;" v-for="track in tracks">
+                <div class="tracks w-[270px] sm:w-[450px] md:w-[350px] h-[250px] sm:h-[180px] md:h-[560px] flex flex-col justify-start items-start px-2 rounded-xl overflow-y-scroll relative"
+                    style="scrollbar-width: none;" v-for="track in tracks">
                     <div class="block">
                         <div class="flex justify-between">
                             <img :src="track.imgSrc" alt="Goals" class="w-24 md:w-36 mt-2 ms-2 inline">
@@ -27,17 +26,17 @@
                     </div>
                     <div class="w-full fixed z-50 bottom-[-18%] left-0 overflow-hidden duration-300"
                         :style="[track.active ? 'height: 100%' : 'height: 0%']">
-                        <div class="text-white w-full flex justify-end text-3xl">
+                        <div class="text-[#031d44] w-full flex justify-end text-3xl">
                             <button @click="track.active = !track.active"><i class="bi bi-x me-8 mb-4"></i></button>
                         </div>
-                        <div class="h-[80%] bg-[#166F7B] rounded-t-3xl">
+                        <div class="sm-tracks h-[80%] rounded-t-3xl">
                             <div class="block p-4 overflow-scroll">
                                 <div class="flex justify-between">
                                     <img :src="track.imgSrc" alt="Goals" class="w-24 md:w-36 mt-2 ms-2 inline">
-                                    <span class="text-[#1DCC7E] mt-2 mx-2 font-bold text-xl">{{ track.heading }}</span>
+                                    <span class="text-[#fffff2] mt-2 mx-2 font-bold text-xl">{{ track.heading }}</span>
                                 </div>
-                                <p class="text-[#1DCC7E] mt-2 font-bold">{{ track.subHeading }}</p>
-                                <p class="text-[#1DCC7E] mt-2">{{ track.ulHeading }}
+                                <p class="text-[#fffff2] mt-2 font-bold">{{ track.subHeading }}</p>
+                                <p class="text-[#fffff2] mt-2">{{ track.ulHeading }}
                                 <ul v-for="list in track.lists" class="list-disc list-inside">
                                     <li>{{ list }}</li>
                                 </ul>
@@ -47,8 +46,8 @@
 
                     </div>
                 </div>
-                <div class="w-[270px] sm:w-[450px] md:w-[350px] h-[250px] sm:h-[180px] md:h-[560px] flex flex-col justify-start items-start px-2 rounded-xl overflow-y-scroll"
-                    style="background-color:rgba(67, 72, 69,0.5);scrollbar-width: none;">
+                <div class="tracks w-[270px] sm:w-[450px] md:w-[350px] h-[250px] sm:h-[180px] md:h-[560px] flex flex-col justify-start items-start px-2 rounded-xl overflow-y-scroll"
+                    style="scrollbar-width: none;">
                     <div>
                         <div class="flex justify-between">
                             <img src="/src/assets/images/disasterManagement.png" alt="Goals"
@@ -77,23 +76,23 @@
                     </div>
                     <div class="w-full fixed z-50 bottom-[-18%] left-0 overflow-hidden duration-300"
                         :style="[disasterActive ? 'height: 100%' : 'height: 0%']">
-                        <div class="text-white w-full flex justify-end text-3xl">
+                        <div class="text-[#031d44] w-full flex justify-end text-3xl">
                             <button @click="disasterActive = !disasterActive"><i class="bi bi-x me-8 mb-4"></i></button>
                         </div>
-                        <div class="h-[80%] bg-[#166F7B] rounded-t-3xl">
+                        <div class="h-[80%] sm-tracks rounded-t-3xl">
                             <div class="p-4">
                                 <div class="flex justify-between">
                                     <img src="/src/assets/images/disasterManagement.png" alt="Goals"
                                         class="w-24 md:w-36 mt-2 ms-2 inline">
-                                    <span class="text-[#1DCC7E] mt-2 ms-2 font-bold text-md sm:text-xl">6. Disaster
+                                    <span class="text-[#fffff2] mt-2 ms-2 font-bold text-md sm:text-xl">6. Disaster
                                         Management</span>
                                 </div>
-                                <p class="text-[#1DCC7E] mt-2 font-bold">"Enhance Resilience and Preparedness for Effective
+                                <p class="text-[#fffff2] mt-2 font-bold">"Enhance Resilience and Preparedness for Effective
                                     Disaster
                                     Management"</p>
-                                <p class="text-[#1DCC7E] mt-2">
+                                <p class="text-[#fffff2] mt-2">
                                     Targets:
-                                <ul class="text-[#1DCC7E] list-disc list-inside">
+                                <ul class="text-[#fffff2] list-disc list-inside">
                                     <li>Develop or enhance early warning systems using real-time data.</li>
                                     <li> Create platforms for efficient coordination among first responders,
                                         organizations,
@@ -115,13 +114,8 @@
 </template>
 
 <style scoped>
-.glass {
-    background: white;
-    background: linear-gradient(to right bottom,
-            rgba(255, 255, 255, 0.4),
-            rgba(255, 255, 255, 0.2));
-    backdrop-filter: blur(1rem);
-    border-color: rgb(67, 72, 69);
+h1{
+    font-family: 'Orbitron';
 }
 
 .active {
@@ -129,6 +123,17 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
+.tracks{
+    background: linear-gradient(0deg,rgba(22, 111, 123, 0.9),rgba(22, 111, 123, 0.6), rgba(29,204,126,0.6));
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.sm-tracks{
+    background: linear-gradient(0deg,rgba(22, 111, 123, 1),rgba(22, 111, 123, 0.9), rgba(29,204,126,0.9));
+}
+
+
 </style>
 
 <script setup>
