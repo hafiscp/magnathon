@@ -13,23 +13,23 @@
         </div>
         <div class="optionsNavigation hidden md:flex">
             <a href="#homepage">
-                <p class="hover:border-b-2 hover:border-[#F20605] hover:text-[#00FFA3] transition duration-500
+                <p class="hover:border-b-2 hover:border-[#F87666] hover:text-[#00FFA3] transition duration-500
                     ease-in-out transform hover:-translate-y-1 hover:scale-110"
                     :class="{ 'active': isActivePage == 'homepage' }">
                     homepage</p>
             </a>
             <a href="#about">
-                <p class="hover:border-b-2 hover:border-[#F20605] hover:text-[#00FFA3] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+                <p class="hover:border-b-2 hover:border-[#F87666] hover:text-[#00FFA3] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                     :class="{ 'active': isActivePage == 'about' }">
                     about</p>
             </a>
             <a href="#timeline">
-                <p class="hover:border-b-2 hover:border-[#F20605] hover:text-[#00FFA3] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+                <p class="hover:border-b-2 hover:border-[#F87666] hover:text-[#00FFA3] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                     :class="{ 'active': isActivePage == 'timeline' }">
                     timeline</p>
             </a>
             <a href="#faq">
-                <p class="hover:border-b-2 hover:border-[#F20605] hover:text-[#00FFA3] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+                <p class="hover:border-b-2 hover:border-[#F87666] hover:text-[#00FFA3] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                     :class="{ 'active': isActivePage == 'faqs' }">
                     FAQ</p>
             </a>

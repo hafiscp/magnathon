@@ -38,7 +38,7 @@
   <section id="tracks" class="flex min-h-screen flex-col items-center justify-start py-30">
     <Tracks />
   </section>
-  <section id="timeline" class="flex min-h-screen flex-col items-center justify-center py-30">
+  <section id="timeline" class="flex min-h-screen flex-col items-center justify-center mt-20">
     <Timeline />
   </section>
   <section id="sponsors" class="flex min-h-screen flex-col items-center justify-center py-30">

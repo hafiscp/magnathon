@@ -46,3 +46,7 @@ body {
     position: relative;
     /* background-color: #8ED1FC; */
 }
+
+#timeline{
+    font-family: 'Orbitron';
+}

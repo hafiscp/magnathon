@@ -28,7 +28,7 @@
         </div>
     </div>
     <div>
-        <h2 class="text-2xl font-semibold text-center text-[#031d44]">Hack Starts In</h2>
+        <h3 class="text-2xl font-semibold text-center text-[#031d44]">Hack Starts In</h3>
     </div>
     <div class="flex justify-center items-center mt-2">
         <div class="time text-3xl">{{ days }}
@@ -67,6 +67,10 @@
     margin: 1rem;
     border: #14374B 0.01rem solid;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+h3{
+    font-family: 'Orbitron';
 }
 
 .time{
