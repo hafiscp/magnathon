@@ -10,7 +10,7 @@
                 <span>Registration Started</span>
             </div>
             <div class="time-box mt-4 w-[300px] rounded-2xl">
-                <span>13 Apr, 2024</span>
+                <span>10 Apr, 2024</span>
                 <span>Registration Closed</span>
             </div>
             <div class="time-box mt-4 w-[300px] rounded-2xl">
@@ -32,7 +32,7 @@
                 </button>
             </div>
         </div>
-        <div class="w-full flex justify-center items-start mt-8 overflow-hidden">
+        <div class="w-full h-[650px] flex justify-center items-start mt-8 overflow-hidden">
             <div :class="[toggleId === 0 ? 'active-time' : 'inactive-time' ]">
                 <div class="flex flex-col justify-center items-center">
                     <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
@@ -103,13 +103,6 @@
                     <div class="mt-2 grid grid-cols-2 gap-4 justify-items-start">
                         <span class="ms-20 lg:ms-0">Tech Fest Inaugration</span>
                         <span class="font-semibold">Prize Distribution</span>
-                    </div>
-                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
-                </div>
-                <div class="flex flex-col justify-center items-center">
-                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
-                        <span>18 Apr, 2024</span>
-                        <span class="font-semibold">Day 2 Hacking</span>
                     </div>
                     <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
                 </div>
