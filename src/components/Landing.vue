@@ -4,17 +4,18 @@
             class="text-6xl md:text-8xl font-sans font-bold text-palette-200 flex flex-col justify-center items-center mt-10">
             <div
                 class=" flex-col lg:flex-row justify-center items-center mt-5 first-letter:font-sans ">
-                <div class="text-[50px] text-[#79F7FF] flex justify-center items-center"><i class="bi bi-dot"></i><span
-                        class="font-extralight tracking-wider text-lg text-white">17 - 18 April, 2024</span></div>
+                <div class="text-[50px] text-[#79F7FF] flex justify-center items-center"><span
+                        class="font-light tracking-wider text-lg text-white">17 - 18 April, 2024</span></div>
 
-                <div class="text-[50px] text-[#79F7FF] flex justify-center items-center"><i class="bi bi-dot"></i><span
-                        class="font-extralight tracking-wider text-lg text-white">College of Engineering,
+                <div class="text-[50px] text-[#79F7FF] flex justify-center items-center"><span
+                        class="font-light tracking-wider text-lg text-white">College of Engineering,
                         Vadakara</span></div>
 
             </div>
-            <h2 class="hero"><span>Magnathon</span></h2>
+            
+            <h2 class="hero"><span>Magnathon 2.O</span></h2>
             <div class="mt-5 text-xl font-sans font-bold text-[#79F7FF]">
-                24 hrs National Level Hackathon
+                24 Hours - National Level Hackathon
             </div>
 
             <div class="first-letter:font-sans text-palette-400">
@@ -22,204 +23,6 @@
                     style="height: 44px; width: 312px"></div>
 
             </div>
-            <!-- <div class="min-h-full px-2 flex flex-col justify-center items-center mb-20">
-                <div class="grid grid-cols-2 w-[50%] sm:grid-cols-4 sm:w-[100%] items-center mx-auto">
-                    <div class="flex flex-col justify-center items-center"><svg width="100%" height="100%"
-                            viewBox="0 0 300 300">
-                            <circle cx="150" cy="240" r="5" fill="#f26b35"></circle>
-                            <circle cx="176.5279656969814" cy="236.00155252075268" r="5" fill="#f26b35"></circle>
-                            <circle cx="200.69880522572598" cy="224.36148968843952" r="5" fill="#f26b35"></circle>
-                            <circle cx="220.36483342212267" cy="206.11408216728603" r="5" fill="#f26b35"></circle>
-                            <circle cx="233.77863737797838" cy="182.88069219297554" r="5" fill="#f26b35"></circle>
-                            <circle cx="239.7483417463062" cy="156.72570842277815" r="5" fill="#f26b35"></circle>
-                            <circle cx="237.74351209636413" cy="129.9731159439317" r="5" fill="#f26b35"></circle>
-                            <circle cx="227.94228634059948" cy="104.99999999999997" r="5" fill="#f26b35"></circle>
-                            <circle cx="211.21554639938273" cy="84.02533153531562" r="5" fill="#f26b35"></circle>
-                            <circle cx="189.04953652058023" cy="68.91280188878228" r="5" fill="#f26b35"></circle>
-                            <circle cx="163.41380395585568" cy="61.00522563973843" r="5" fill="#f26b35"></circle>
-                            <circle cx="136.5861960441443" cy="61.00522563973843" r="5" fill="#f26b35"></circle>
-                            <circle cx="110.95046347941977" cy="68.91280188878228" r="5" fill="#f26b35"></circle>
-                            <circle cx="88.78445360061724" cy="84.02533153531564" r="5" fill="#f26b35"></circle>
-                            <circle cx="72.05771365940049" cy="105.00000000000004" r="5" fill="#f26b35"></circle>
-                            <circle cx="62.25648790363587" cy="129.9731159439317" r="5" fill="#f26b35"></circle>
-                            <circle cx="60.25165825369379" cy="156.7257084227782" r="5" fill="#f26b35"></circle>
-                            <circle cx="66.22136262202163" cy="182.88069219297557" r="5" fill="#f26b35"></circle>
-                            <circle cx="79.63516657787731" cy="206.114082167286" r="5" fill="#f26b35"></circle>
-                            <circle cx="99.30119477427402" cy="224.36148968843955" r="5" fill="#f26b35"></circle>
-                            <circle cx="123.47203430301866" cy="236.00155252075268" r="5" fill="#f26b35"></circle><text
-                                x="150" y="170" text-anchor="middle" id="days" class="text-6xl font-black"
-                                fill="#FFFFFF">{{
-                                days }}</text>
-                        </svg>
-                        <h3 class="text-lg text-[#00FFA3]">days</h3>
-                    </div>
-                    <div class="flex flex-col justify-center items-center"><svg width="100%" height="100%"
-                            viewBox="0 0 300 300">
-                            <circle cx="150" cy="240" r="4" fill="#f26b35"></circle>
-                            <circle cx="173.29371405922686" cy="236.93332436601617" r="4" fill="#f26b35"></circle>
-                            <circle cx="195" cy="227.94228634059948" r="4" fill="#f26b35"></circle>
-                            <circle cx="213.63961030678928" cy="213.63961030678928" r="4" fill="#f26b35"></circle>
-                            <circle cx="227.94228634059948" cy="195" r="4" fill="#f26b35"></circle>
-                            <circle cx="236.93332436601614" cy="173.2937140592269" r="4" fill="#f26b35"></circle>
-                            <circle cx="240" cy="150" r="4" fill="#f26b35"></circle>
-                            <circle cx="236.93332436601617" cy="126.70628594077314" r="4" fill="#f26b35"></circle>
-                            <circle cx="227.94228634059948" cy="105.00000000000001" r="4" fill="#f26b35"></circle>
-                            <circle cx="213.63961030678928" cy="86.36038969321072" r="4" fill="#f26b35"></circle>
-                            <circle cx="195.00000000000003" cy="72.05771365940053" r="4" fill="#f26b35"></circle>
-                            <circle cx="173.2937140592269" cy="63.06667563398386" r="4" fill="#f26b35"></circle>
-                            <circle cx="150" cy="60" r="4" fill="#f26b35"></circle>
-                            <circle cx="126.70628594077317" cy="63.06667563398385" r="4" fill="#f26b35"></circle>
-                            <circle cx="105.00000000000003" cy="72.05771365940052" r="4" fill="#f26b35"></circle>
-                            <circle cx="86.36038969321075" cy="86.36038969321069" r="4" fill="#f26b35"></circle>
-                            <circle cx="72.05771365940053" cy="104.99999999999997" r="4" fill="#f26b35"></circle>
-                            <circle cx="63.06667563398388" cy="126.70628594077307" r="4" fill="#f26b35"></circle>
-                            <circle cx="60" cy="150" r="4" fill="#f26b35"></circle>
-                            <circle cx="63.06667563398385" cy="173.29371405922683" r="4" fill="#f26b35"></circle>
-                            <circle cx="72.05771365940049" cy="194.99999999999994" r="4" fill="#f26b35"></circle>
-                            <circle cx="86.3603896932107" cy="213.63961030678928" r="4" fill="#f26b35"></circle>
-                            <circle cx="104.99999999999996" cy="227.94228634059945" r="4" fill="#f26b35"></circle>
-                            <circle cx="126.70628594077306" cy="236.9333243660161" r="4" fill="#f26b35"></circle><text
-                                x="150" y="170" text-anchor="middle" id="hours" class="text-6xl font-black"
-                                fill="#FFFFFF">{{ hours }}</text>
-                        </svg>
-                        <h3 class="text-lg text-[#00FFA3]">hours</h3>
-                    </div>
-                    <div class="flex flex-col justify-center items-center"><svg width="100%" height="100%"
-                            viewBox="0 0 300 300">
-                            <circle cx="150" cy="240" r="2" fill="#f26b35"></circle>
-                            <circle cx="159.4075616940888" cy="239.5069705831446" r="2" fill="#f26b35"></circle>
-                            <circle cx="168.71205217359835" cy="238.03328406604248" r="2" fill="#f26b35"></circle>
-                            <circle cx="177.81152949374527" cy="235.59508646656383" r="2" fill="#f26b35"></circle>
-                            <circle cx="186.60629787682203" cy="232.21909118783407" r="2" fill="#f26b35"></circle>
-                            <circle cx="195" cy="227.94228634059948" r="2" fill="#f26b35"></circle>
-                            <circle cx="202.90067270632258" cy="222.81152949374527" r="2" fill="#f26b35"></circle>
-                            <circle cx="210.22175457229724" cy="216.88303429296548" r="2" fill="#f26b35"></circle>
-                            <circle cx="216.88303429296548" cy="210.22175457229724" r="2" fill="#f26b35"></circle>
-                            <circle cx="222.81152949374527" cy="202.90067270632258" r="2" fill="#f26b35"></circle>
-                            <circle cx="227.94228634059948" cy="195" r="2" fill="#f26b35"></circle>
-                            <circle cx="232.21909118783407" cy="186.60629787682203" r="2" fill="#f26b35"></circle>
-                            <circle cx="235.59508646656383" cy="177.81152949374527" r="2" fill="#f26b35"></circle>
-                            <circle cx="238.03328406604248" cy="168.71205217359835" r="2" fill="#f26b35"></circle>
-                            <circle cx="239.5069705831446" cy="159.40756169408883" r="2" fill="#f26b35"></circle>
-                            <circle cx="240" cy="150" r="2" fill="#f26b35"></circle>
-                            <circle cx="239.5069705831446" cy="140.5924383059112" r="2" fill="#f26b35"></circle>
-                            <circle cx="238.0332840660425" cy="131.28794782640168" r="2" fill="#f26b35"></circle>
-                            <circle cx="235.59508646656383" cy="122.18847050625473" r="2" fill="#f26b35"></circle>
-                            <circle cx="232.21909118783407" cy="113.39370212317799" r="2" fill="#f26b35"></circle>
-                            <circle cx="227.94228634059948" cy="105.00000000000001" r="2" fill="#f26b35"></circle>
-                            <circle cx="222.81152949374527" cy="97.09932729367742" r="2" fill="#f26b35"></circle>
-                            <circle cx="216.8830342929655" cy="89.77824542770279" r="2" fill="#f26b35"></circle>
-                            <circle cx="210.22175457229724" cy="83.11696570703452" r="2" fill="#f26b35"></circle>
-                            <circle cx="202.90067270632258" cy="77.18847050625473" r="2" fill="#f26b35"></circle>
-                            <circle cx="195.00000000000003" cy="72.05771365940053" r="2" fill="#f26b35"></circle>
-                            <circle cx="186.60629787682203" cy="67.78090881216592" r="2" fill="#f26b35"></circle>
-                            <circle cx="177.81152949374527" cy="64.40491353343619" r="2" fill="#f26b35"></circle>
-                            <circle cx="168.71205217359838" cy="61.9667159339575" r="2" fill="#f26b35"></circle>
-                            <circle cx="159.40756169408883" cy="60.49302941685541" r="2" fill="#f26b35"></circle>
-                            <circle cx="150" cy="60" r="2" fill="#f26b35"></circle>
-                            <circle cx="140.59243830591123" cy="60.49302941685539" r="2" fill="#f26b35"></circle>
-                            <circle cx="131.28794782640168" cy="61.96671593395749" r="2" fill="#f26b35"></circle>
-                            <circle cx="122.18847050625473" cy="64.40491353343617" r="2" fill="#f26b35"></circle>
-                            <circle cx="113.393702123178" cy="67.7809088121659" r="2" fill="#f26b35"></circle>
-                            <circle cx="105.00000000000003" cy="72.05771365940052" r="2" fill="#f26b35"></circle>
-                            <circle cx="97.09932729367742" cy="77.18847050625473" r="2" fill="#f26b35"></circle>
-                            <circle cx="89.77824542770279" cy="83.1169657070345" r="2" fill="#f26b35"></circle>
-                            <circle cx="83.11696570703454" cy="89.77824542770276" r="2" fill="#f26b35"></circle>
-                            <circle cx="77.18847050625475" cy="97.0993272936774" r="2" fill="#f26b35"></circle>
-                            <circle cx="72.05771365940053" cy="104.99999999999997" r="2" fill="#f26b35"></circle>
-                            <circle cx="67.78090881216595" cy="113.39370212317792" r="2" fill="#f26b35"></circle>
-                            <circle cx="64.40491353343619" cy="122.18847050625473" r="2" fill="#f26b35"></circle>
-                            <circle cx="61.9667159339575" cy="131.28794782640162" r="2" fill="#f26b35"></circle>
-                            <circle cx="60.49302941685541" cy="140.59243830591112" r="2" fill="#f26b35"></circle>
-                            <circle cx="60" cy="150" r="2" fill="#f26b35"></circle>
-                            <circle cx="60.49302941685539" cy="159.40756169408877" r="2" fill="#f26b35"></circle>
-                            <circle cx="61.966715933957474" cy="168.71205217359827" r="2" fill="#f26b35"></circle>
-                            <circle cx="64.40491353343617" cy="177.81152949374524" r="2" fill="#f26b35"></circle>
-                            <circle cx="67.7809088121659" cy="186.606297876822" r="2" fill="#f26b35"></circle>
-                            <circle cx="72.05771365940049" cy="194.99999999999994" r="2" fill="#f26b35"></circle>
-                            <circle cx="77.18847050625472" cy="202.90067270632258" r="2" fill="#f26b35"></circle>
-                            <circle cx="83.11696570703448" cy="210.22175457229721" r="2" fill="#f26b35"></circle>
-                            <circle cx="89.7782454277027" cy="216.88303429296542" r="2" fill="#f26b35"></circle>
-                            <circle cx="97.0993272936774" cy="222.81152949374524" r="2" fill="#f26b35"></circle>
-                            <circle cx="104.99999999999996" cy="227.94228634059945" r="2" fill="#f26b35"></circle>
-                            <circle cx="113.39370212317792" cy="232.21909118783407" r="2" fill="#f26b35"></circle>
-                            <circle cx="122.18847050625472" cy="235.59508646656383" r="2" fill="#f26b35"></circle>
-                            <circle cx="131.28794782640162" cy="238.03328406604248" r="2" fill="#f26b35"></circle>
-                            <circle cx="140.59243830591112" cy="239.5069705831446" r="2" fill="#f26b35"></circle><text
-                                x="150" y="170" text-anchor="middle" id="minutes" class="text-6xl font-black"
-                                fill="#FFFFFF">{{ minutes }}</text>
-                        </svg>
-                        <h3 class="text-lg text-[#00FFA3]">minutes</h3>
-                    </div>
-                    <div class="flex flex-col justify-center items-center"><svg width="100%" height="100%"
-                            viewBox="0 0 300 300">
-                            <circle cx="150" cy="240" r="2" fill="#f26b35"></circle>
-                            <circle cx="159.4075616940888" cy="239.5069705831446" r="2" fill="#f26b35"></circle>
-                            <circle cx="168.71205217359835" cy="238.03328406604248" r="2" fill="#f26b35"></circle>
-                            <circle cx="177.81152949374527" cy="235.59508646656383" r="2" fill="#f26b35"></circle>
-                            <circle cx="186.60629787682203" cy="232.21909118783407" r="2" fill="#f26b35"></circle>
-                            <circle cx="195" cy="227.94228634059948" r="2" fill="#f26b35"></circle>
-                            <circle cx="202.90067270632258" cy="222.81152949374527" r="2" fill="#f26b35"></circle>
-                            <circle cx="210.22175457229724" cy="216.88303429296548" r="2" fill="#f26b35"></circle>
-                            <circle cx="216.88303429296548" cy="210.22175457229724" r="2" fill="#f26b35"></circle>
-                            <circle cx="222.81152949374527" cy="202.90067270632258" r="2" fill="#f26b35"></circle>
-                            <circle cx="227.94228634059948" cy="195" r="2" fill="#f26b35"></circle>
-                            <circle cx="232.21909118783407" cy="186.60629787682203" r="2" fill="#f26b35"></circle>
-                            <circle cx="235.59508646656383" cy="177.81152949374527" r="2" fill="#f26b35"></circle>
-                            <circle cx="238.03328406604248" cy="168.71205217359835" r="2" fill="#f26b35"></circle>
-                            <circle cx="239.5069705831446" cy="159.40756169408883" r="2" fill="#f26b35"></circle>
-                            <circle cx="240" cy="150" r="2" fill="#f26b35"></circle>
-                            <circle cx="239.5069705831446" cy="140.5924383059112" r="2" fill="#f26b35"></circle>
-                            <circle cx="238.0332840660425" cy="131.28794782640168" r="2" fill="#f26b35"></circle>
-                            <circle cx="235.59508646656383" cy="122.18847050625473" r="2" fill="#f26b35"></circle>
-                            <circle cx="232.21909118783407" cy="113.39370212317799" r="2" fill="#f26b35"></circle>
-                            <circle cx="227.94228634059948" cy="105.00000000000001" r="2" fill="#f26b35"></circle>
-                            <circle cx="222.81152949374527" cy="97.09932729367742" r="2" fill="#f26b35"></circle>
-                            <circle cx="216.8830342929655" cy="89.77824542770279" r="2" fill="#f26b35"></circle>
-                            <circle cx="210.22175457229724" cy="83.11696570703452" r="2" fill="#f26b35"></circle>
-                            <circle cx="202.90067270632258" cy="77.18847050625473" r="2" fill="#f26b35"></circle>
-                            <circle cx="195.00000000000003" cy="72.05771365940053" r="2" fill="#f26b35"></circle>
-                            <circle cx="186.60629787682203" cy="67.78090881216592" r="2" fill="#f26b35"></circle>
-                            <circle cx="177.81152949374527" cy="64.40491353343619" r="2" fill="#f26b35"></circle>
-                            <circle cx="168.71205217359838" cy="61.9667159339575" r="2" fill="#f26b35"></circle>
-                            <circle cx="159.40756169408883" cy="60.49302941685541" r="2" fill="#f26b35"></circle>
-                            <circle cx="150" cy="60" r="2" fill="#f26b35"></circle>
-                            <circle cx="140.59243830591123" cy="60.49302941685539" r="2" fill="#f26b35"></circle>
-                            <circle cx="131.28794782640168" cy="61.96671593395749" r="2" fill="#f26b35"></circle>
-                            <circle cx="122.18847050625473" cy="64.40491353343617" r="2" fill="#f26b35"></circle>
-                            <circle cx="113.393702123178" cy="67.7809088121659" r="2" fill="#f26b35"></circle>
-                            <circle cx="105.00000000000003" cy="72.05771365940052" r="2" fill="#f26b35"></circle>
-                            <circle cx="97.09932729367742" cy="77.18847050625473" r="2" fill="#f26b35"></circle>
-                            <circle cx="89.77824542770279" cy="83.1169657070345" r="2" fill="#f26b35"></circle>
-                            <circle cx="83.11696570703454" cy="89.77824542770276" r="2" fill="#f26b35"></circle>
-                            <circle cx="77.18847050625475" cy="97.0993272936774" r="2" fill="#f26b35"></circle>
-                            <circle cx="72.05771365940053" cy="104.99999999999997" r="2" fill="#f26b35"></circle>
-                            <circle cx="67.78090881216595" cy="113.39370212317792" r="2" fill="#f26b35"></circle>
-                            <circle cx="64.40491353343619" cy="122.18847050625473" r="2" fill="#f26b35"></circle>
-                            <circle cx="61.9667159339575" cy="131.28794782640162" r="2" fill="#f26b35"></circle>
-                            <circle cx="60.49302941685541" cy="140.59243830591112" r="2" fill="#f26b35"></circle>
-                            <circle cx="60" cy="150" r="2" fill="#f26b35"></circle>
-                            <circle cx="60.49302941685539" cy="159.40756169408877" r="2" fill="#f26b35"></circle>
-                            <circle cx="61.966715933957474" cy="168.71205217359827" r="2" fill="#f26b35"></circle>
-                            <circle cx="64.40491353343617" cy="177.81152949374524" r="2" fill="#f26b35"></circle>
-                            <circle cx="67.7809088121659" cy="186.606297876822" r="2" fill="#f26b35"></circle>
-                            <circle cx="72.05771365940049" cy="194.99999999999994" r="2" fill="#f26b35"></circle>
-                            <circle cx="77.18847050625472" cy="202.90067270632258" r="2" fill="#f26b35"></circle>
-                            <circle cx="83.11696570703448" cy="210.22175457229721" r="2" fill="#f26b35"></circle>
-                            <circle cx="89.7782454277027" cy="216.88303429296542" r="2" fill="#f26b35"></circle>
-                            <circle cx="97.0993272936774" cy="222.81152949374524" r="2" fill="#f26b35"></circle>
-                            <circle cx="104.99999999999996" cy="227.94228634059945" r="2" fill="#f26b35"></circle>
-                            <circle cx="113.39370212317792" cy="232.21909118783407" r="2" fill="#f26b35"></circle>
-                            <circle cx="122.18847050625472" cy="235.59508646656383" r="2" fill="#f26b35"></circle>
-                            <circle cx="131.28794782640162" cy="238.03328406604248" r="2" fill="#f26b35"></circle>
-                            <circle cx="140.59243830591112" cy="239.5069705831446" r="2" fill="#f26b35"></circle><text
-                                x="150" y="170" text-anchor="middle" id="seconds" class="text-6xl font-black"
-                                fill="#FFFFFF">{{ seconds }}</text>
-                        </svg>
-                        <h3 class="text-lg text-[#00FFA3]">seconds</h3>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </div>
 </template>

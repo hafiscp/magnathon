@@ -41,7 +41,7 @@
   <section id="timeline" class="flex min-h-screen flex-col items-center justify-center mt-20">
     <Timeline />
   </section>
-  <section id="sponsors" class="flex min-h-screen flex-col items-center justify-center py-30">
+  <section id="sponsors" class="flex min-h-screen flex-col items-center justify-center mt-30">
     <Sponsor />
   </section>
   <section id="faq" class="min-h-screen flex flex-col items-center justify-center py-30 w-4/5 mx-auto">

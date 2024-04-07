@@ -1,69 +1,69 @@
 <template>
-    <div class="mt-20">
+    <div class="mt-20 timeline">
         <h1 class="text-[#031d44] text-7xl font-semibold">Timeline</h1>
         <hr class="mt-10 border-4 border-[#F87666] mx-[10%] w-[70%]">
     </div>
     <div class="flex flex-col justify-center items-center mt-8">
         <div class="flex flex-col justify-center items-center">
             <div class="time-box mt-4 w-[300px] rounded-2xl">
-                <span>1 Apr, 2024</span>
+                <span class="font-bold">1st April 2024</span>
                 <span>Registration Started</span>
             </div>
             <div class="time-box mt-4 w-[300px] rounded-2xl">
-                <span>13 Apr, 2024</span>
+                <span class="font-bold">13th April 2024</span>
                 <span>Registration Closed</span>
             </div>
             <div class="time-box mt-4 w-[300px] rounded-2xl">
-                <span>15 Apr, 2024</span>
+                <span class="font-bold">15th April 2024</span>
                 <span>Shortlisted Team Release</span>
             </div>
             <div class="grid grid-cols-2 gap-2">
                 <button class="mt-4 w-[180px] lg:w-[300px] rounded-2xl"
                 :class="[toggleId === 0 ? 'active' : 'time-box']"
                 @click="toggleId = 0">
-                    <span>17 Apr, 2024</span>
+                    <span class="font-bold">17 April 2024</span>
                     <span>Day 1 Hacking</span>
                 </button>
                 <button class="time-box mt-4 w-[180px] lg:w-[300px] rounded-2xl"
                 :class="[toggleId === 1 ? 'active' : 'time-box']"
                 @click="toggleId = 1">
-                    <span>18 Apr, 2024</span>
+                    <span class="font-bold">18 April 2024</span>
                     <span>Day 2 Hacking</span>
                 </button>
             </div>
         </div>
         <div class="w-full flex justify-center items-start mt-8 overflow-hidden">
             <div :class="[toggleId === 0 ? 'active-time' : 'inactive-time' ]">
-                <div class="flex flex-col justify-center items-center">
-                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                <div class="flex flex-col justify-between items-center">
+                    <div class="mt-2 gap-4 flex">
                         <span>08 : 00 AM</span>
                         <span class="font-semibold">Offline Registration</span>
                     </div>
                     <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
                 </div>
-                <div class="flex flex-col justify-center items-center">
-                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                <div class="flex flex-col items-center justify-around">
+                    <div class="mt-2 gap-4 flex">
                         <span>09 : 30 AM</span>
                         <span class="font-semibold">Inauguration</span>
                     </div>
-                    <hr class="m-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
                 </div>
-                <div class="flex flex-col justify-center items-center">
-                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                <div class="flex flex-col items-center justify-around">
+                    <div class="mt-2 gap-4 flex">
                         <span>10 : 30 AM</span>
                         <span class="font-semibold">Introduction Session</span>
                     </div>
                     <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
                 </div>
-                <div class="flex flex-col justify-center items-center">
-                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                <div class="flex flex-col items-center justify-around">
+                    <div class="mt-2 gap-4 flex">
                         <span>12 : 30 PM</span>
                         <span class="font-semibold">Hack Begins</span>
                     </div>
                     <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
                 </div>
-                <div class="flex flex-col justify-center items-center">
-                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                <div class="flex flex-col items-center justify-around">
+                    <div class="mt-2 gap-4 flex">
                         <span>08 : 00 PM</span>
                         <span class="font-semibold">Culturals</span>
                     </div>
@@ -71,48 +71,42 @@
                 </div>
             </div>
             <div :class="[toggleId === 1 ? 'active-time' : 'inactive-time' ]">
-                <div class="flex flex-col justify-center items-center">
-                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                <div class="flex flex-col items-center justify-around">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-center justify-evenly">
                         <span>11 : 00 AM</span>
                         <span class="font-semibold">Hack Ends</span>
                     </div>
                     <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
                 </div>
-                <div class="flex flex-col justify-center items-center">
-                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                <div class="flex flex-col items-center justify-around">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-center justify-evenly">
                         <span>11 : 00 AM</span>
-                        <span class="font-semibold">Project Evaluation</span>
-                    </div>
-                    <hr class="m-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
-                </div>
-                <div class="flex flex-col justify-center items-center">
-                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
-                        <span>After Evaluation</span>
-                        <span class="font-semibold">Result Announcement</span>
+                        <span class="font-semibold">Project <br> Evaluation</span>
                     </div>
                     <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
                 </div>
-                <div class="flex flex-col justify-center items-center">
-                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
+                <div class="flex flex-col items-center justify-around">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-center justify-evenly">
+                        <span>After <br> Evaluation</span>
+                        <span class="font-semibold">Result <br> Announcement</span>
+                    </div>
+                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                </div>
+                <div class="flex flex-col items-center justify-around">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-center justify-evenly">
                         <span>03 : 00 PM</span>
-                        <span class="font-semibold">Project Presentation</span>
+                        <span class="font-semibold">Project <br> Presentation</span>
                     </div>
                     <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
                 </div>
-                <div class="flex flex-col justify-center items-center">
-                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-start">
-                        <span class="ms-20 lg:ms-0">Tech Fest Inaugration</span>
-                        <span class="font-semibold">Prize Distribution</span>
+                <div class="flex flex-col items-center justify-around">
+                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-center justify-evenly">
+                        <span>Tech Fest <br> Inaugration</span>
+                        <span class="font-semibold">Prize <br> Distribution</span>
                     </div>
-                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                    <hr class="mt-6 mb-6 border-2 border-[#F87666] mx-[10%] w-[70%]">
                 </div>
-                <div class="flex flex-col justify-center items-center">
-                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-end">
-                        <span>18 Apr, 2024</span>
-                        <span class="font-semibold">Day 2 Hacking</span>
-                    </div>
-                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
-                </div>
+    
             </div>
         </div>
     </div>
@@ -133,8 +127,14 @@
     background: #031d44;
 }
 
+.timeline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .active{
-    background: #F87666;
+    background: #e64b37;
 }
 
 .active-time{
