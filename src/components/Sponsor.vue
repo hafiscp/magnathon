@@ -1,15 +1,10 @@
 <template>
-    <div class="mt-20 flex flex-col justify-center items-center">
+    <div class="mt-20 flex flex-col justify-center items-center text-center">
         <h1 class="text-[#031d44] text-7xl font-semibold">Meet our Sponsors</h1>
-        <hr class="mt-10 border-4 border-[#F87666] mx-[10%] w-[70%]">
-    </div>
-    <div class="mt-8"><a href="mailto:ieeesb@cev.ac.in"
-            class="p-2 text-[#F87666] rounded-2xl border-2 border-[#F87666] hover:text-[#fffff2] hover:bg-[#F87666] duration-500 px-5">Become
-            a
-            Sponsor</a>
+        <hr class="mt-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
     </div>
     <div class="mt-12">
-        <div class="font-sans text-[#166F7B] text-2xl" >
+        <div class="font-sans text-[#166F7B] text-2xl font-bold" >
             Diamond Sponsors
         </div>
     </div>
@@ -34,6 +29,9 @@
             <img src="../assets/images/ETHIndia.png" alt="ETHINDIA LOGO">
         </div>
     </div>
+    <div class="mt-8"><a href="mailto:ieeesb@cev.ac.in"
+        class="p-2 text-[#F87666] rounded-2xl border-2 border-[#F87666] hover:text-[#fffff2] hover:bg-[#F87666] duration-500 px-10 font-bold">SPONSOR US</a>
+</div>
 </template>
 
 <style scoped>

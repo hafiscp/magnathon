@@ -8,11 +8,14 @@
         <div class="py-10 md:px-16 w-full flex flex-col md:flex-row justify-center items-center mt-4">
             <div class="about-card">
                 <h2 class="text-lg font-semibold text-center text-[#031d44]">What is Hackathon ?</h2>
-                <p class="mt-2 text-[rgba(3,33,78,0.7)]">A hackathon is an invention and innovation competition for
-                    technology. A hackathon is a
-                    learning experience where students can come to use technology to learn new software, hardware,
-                    skills,
-                    and techniques by creating a project with a team of up to 4 people throughout the event.</p>
+                <p class="mt-2 text-[rgba(3,33,78,0.7)]">
+                    
+A hackathon is an invention and innovation competition focused on technology. It provides a learning experience where students can use technology to explore new software, hardware, skills, and techniques by creating a project with a team of up to 4 people over the event's duration. Hackathons encourage collaboration, creativity, and problem-solving, often tackling real-world challenges to develop innovative solutions.
+
+
+
+
+</p>
             </div>
             <div class="about-card">
                 <h2 class="text-lg font-semibold text-center text-[#031d44]">What is Magnathon ?</h2>
@@ -61,6 +64,7 @@
 .about-card {
     width: 320px;
     height: 400px;
+    text-align: center;
     background-color: #fffff2;
     padding: 1rem;
     border-radius: 0.75rem;
@@ -85,6 +89,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; 
     font-family: 'Orbitron';
     position: relative;
 }
@@ -101,9 +106,6 @@ h3{
 .overlay{
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 </style>
