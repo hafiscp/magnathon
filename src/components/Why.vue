@@ -26,13 +26,18 @@
             <h4 class="text-[#031d44] text-4xl font-semi-bold text-center">Collabration & <br> Networking</h4>
         </div>
     </div>
+    <br>
     <div class="mt-12 lg:mt-6 z-10 flex flex-col justify-center items-center">
         <h4 class="text-[#031d44] text-4xl font-semi-bold text-center">Register Now For Free</h4>
         <div class="flex flex-row justify-center items-center mt-8 first-letter:font-sans ">
             <a href="https://magnathon2024.devfolio.co/"
-                class="border border-[#F87666] bg-[#F87666] flex flex-row justify-center items-center p-2 rounded-lg">
-                <img src="../assets/images/Logo.png" class="w-10 me-1" alt="Defolio">
-                <span class="text-[#fffff2] text-lg">Register Now</span>
+                class="border border-[#F87666] bg-[#ff2929] flex flex-row justify-center items-center p-2 rounded-lg">
+                <!-- <img src="../assets/images/Logo.png" class="w-10 me-1" alt="Defolio"> -->
+                <span class="inline-flex items-center text-[#fffff2] text-lg justify-center mx-5">
+                    Register Now
+                    <img src="../assets/images/arrow.png" class="h-4 ml-3" alt="" style="max-height: 1em; filter: invert(100%);">
+                </span>
+                
             </a>
         </div>
     </div>

@@ -1,24 +1,24 @@
 <template>
     <div class="mt-20 flex flex-col justify-center items-center">
         <h1 class="text-[#031d44] text-7xl font-semibold">FAQs</h1>
-        <hr class="mt-10 border-4 border-[#F87666] mx-[10%] w-[70%]">
+        <hr class="mt-10 border-4 border-[#F87666] mx-[10%] w-[70%] mb-10">
     </div>
     <div class="mt-4" v-for="(each, id) in faqs">
         <div class="w-[289px] sm:w-[550px] md:w-[750px] rounded-md border-10">
-            <button class="flex w-full items-start justify-normal rounded-[5px] p-5 font-bold font-lg text-[#031d44]"
+            <button class="flex w-full items-start justify-normal rounded-[5px] p-5 font-medium font-lg text-[#031d44] bg-[white] border"
                 @click="makeVisible(id)">
                 <span class="me-2"><i class="bi bi-caret-down-fill"></i></span>
                 <p class="text-start">{{ each.question }}</p>
             </button>
             <div class="overflow-hidden rounded-[5px] font-lg transition-[height] transition-1000 ease-in-out inActiveAnswer" ref="answer">
-                <p class="ms-5 px-5 text-[#031d44]">
+                <p class="ms-5 px-5 py-5 text-[#031d44] font-semibold">
                     {{ each.answer }}
                 </p>
             </div>
         </div>
     </div>
     <div class="flex flex-col items-center text-base h-full my-auto px-6 lg:px-0 mt-6">
-        <div class="text-[#031d44]">Have More Questions</div>
+        <div class="text-[#031d44] py-6">Have More Questions !?</div>
         <h1 class="font-sans font-bold text-5xl text-center text-[#031d44]">Get in Touch</h1>
         <div class="font-sans text-center mt-8 w-full sm:w-4/5 lg:w-2/5 text-[#031d44]">
             Got questions, cool ideas, or just want to chat? We're all ears! Whether it's a tech glitch or you're unsure
@@ -60,7 +60,7 @@ const faqs = ref([
     },
     {
         'question': 'How many people per team?',
-        'answer': "Two to four people per team.",
+        'answer': "2 to 4 people per team.",
         opened: false,
         scrollheight: ''
     },
