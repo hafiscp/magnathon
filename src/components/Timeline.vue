@@ -10,11 +10,7 @@
                 <span>Registration Started</span>
             </div>
             <div class="time-box mt-4 w-[300px] rounded-2xl">
-<<<<<<< HEAD
                 <span class="font-bold">13th April 2024</span>
-=======
-                <span>10 Apr, 2024</span>
->>>>>>> upstream/main
                 <span>Registration Closed</span>
             </div>
             <div class="time-box mt-4 w-[300px] rounded-2xl">

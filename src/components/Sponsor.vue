@@ -29,6 +29,26 @@
             <img src="../assets/images/ETHIndia.png" alt="ETHINDIA LOGO">
         </div>
     </div>
+    <div class="mt-12">
+        <div class="font-sans text-[#166F7B] text-2xl font-bold" >
+            Community Patner
+        </div>
+    </div>
+    <div class="flex flex-col justify-center items-center lg:flex-row mt-10">
+        <div class="bg-white hover:bg-[#fffff2] w-[350px] lg:w-[400px] me-0 lg:me-6 mb-4 p-4 rounded-md flex justify-center items-center">
+            <img src="../assets/images/µLearn.webp" alt="MULEARN LOGO">
+        </div>
+    </div>
+    <div class="mt-12">
+        <div class="font-sans text-[#166F7B] text-2xl font-bold" >
+            Certicates Patner
+        </div>
+    </div>
+    <div class="flex flex-col justify-center items-center lg:flex-row mt-10">
+        <div class="bg-white hover:bg-[#fffff2] w-[350px] lg:w-[400px] me-0 lg:me-6 mb-4 p-4 rounded-md flex justify-center items-center">
+            <img src="../assets/images/pindown.webp" alt="PINDOWN LOGO">
+        </div>
+    </div>
     <div class="mt-8"><a href="mailto:ieeesb@cev.ac.in"
         class="p-2 text-[#F87666] rounded-2xl border-2 border-[#F87666] hover:text-[#fffff2] hover:bg-[#F87666] duration-500 px-10 font-bold">SPONSOR US</a>
 </div>
