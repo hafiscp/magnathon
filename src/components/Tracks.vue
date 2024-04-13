@@ -43,71 +43,8 @@
                                 </p>
                             </div>
                         </div>
-
                     </div>
                 </div>
-                <!-- <div class="tracks w-[270px] sm:w-[450px] md:w-[350px] h-[250px] sm:h-[180px] md:h-[560px] flex flex-col justify-start items-start px-2 rounded-xl overflow-y-scroll"
-                    style="scrollbar-width: none;">
-                    <div>
-                        <div class="flex justify-between">
-                            <img src="/src/assets/images/disasterManagement.png" alt="Goals"
-                                class="w-24 md:w-36 mt-2 ms-2 inline">
-                            <span class="text-black mt-2 ms-2 font-bold text-md sm:text-xl">6. Disaster
-                                Management</span>
-                        </div>
-                        <p class="text-black mt-2 font-bold">Enhance Resilience & Preparedness for Effective Disaster
-                            Management</p>
-                        <p class="text-black mt-2 hidden md:block">
-                            Targets:
-                        <ul class="text-white list-disc list-inside hidden md:block">
-                            <li>Develop or enhance early warning systems using real-time data.</li>
-                            <li> Create platforms for efficient coordination among first responders, organizations,
-                                and communities during disaster response.</li>
-                            <li>Empower communities to build resilience through education, training, and
-                                planning.</li>
-                            <li>Create innovative solutions for temporary shelters, emergency housing, and
-                                essential infrastructure in disaster-affected areas.</li>
-                        </ul>
-                        </p>
-                    </div>
-                    <div class="md:hidden absolute bottom-4 right-4">
-                        <button class="text-3xl text-white" @click="disasterActive = !disasterActive"><i
-                                class="bi bi-arrow-up-short"></i></button>
-                    </div>
-                    <div class="w-full fixed z-50 bottom-[-18%] left-0 overflow-hidden duration-300"
-                        :style="[disasterActive ? 'height: 100%' : 'height: 0%']">
-                        <div class="text-[#031d44] w-full flex justify-end text-3xl">
-                            <button @click="disasterActive = !disasterActive"><i class="bi bi-x me-8 mb-4"></i></button>
-                        </div>
-                        <div class="h-[80%] sm-tracks rounded-t-3xl">
-                            <div class="p-4">
-                                <div class="flex justify-between">
-                                    <img src="/src/assets/images/disasterManagement.png" alt="Goals"
-                                        class="w-24 md:w-36 mt-2 ms-2 inline">
-                                    <span class="text-[#fffff2] mt-2 ms-2 font-bold text-md sm:text-xl">6. Disaster
-                                        Management</span>
-                                </div>
-                                <p class="text-[#fffff2] mt-2 font-bold">"Enhance Resilience and Preparedness for Effective
-                                    Disaster
-                                    Management"</p>
-                                <p class="text-[#fffff2] mt-2">
-                                    Targets:
-                                <ul class="text-[#fffff2] list-disc list-inside">
-                                    <li>Develop or enhance early warning systems using real-time data.</li>
-                                    <li> Create platforms for efficient coordination among first responders,
-                                        organizations,
-                                        and communities during disaster response.</li>
-                                    <li>Empower communities to build resilience through education, training, and
-                                        planning.</li>
-                                    <li>Create innovative solutions for temporary shelters, emergency housing, and
-                                        essential infrastructure in disaster-affected areas.</li>
-                                </ul>
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div> -->
             </div>
         </div>
     </div>

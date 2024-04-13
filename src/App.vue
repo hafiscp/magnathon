@@ -49,9 +49,9 @@
   <section id="faq" class="min-h-screen flex flex-col items-center justify-center py-30 w-4/5 mx-auto">
     <Faqs />
   </section>
-  <section id="team" class="flex min-h-screen flex-col items-center justify-start py-30">
+  <!-- <section id="team" class="flex min-h-screen flex-col items-center justify-start py-30">
     <Team />
-  </section>
+  </section> -->
   <section class="flex flex-col items-center justify-center py-30 relative">
     <Footer />
   </section>
