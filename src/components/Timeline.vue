@@ -44,7 +44,7 @@
                 <div class="flex flex-col items-center justify-around">
                     <div class="mt-2 gap-4 flex">
                         <span>09 : 30 AM</span>
-                        <span class="font-semibold">Inauguration</span>
+                        <span class="font-semibold">Hack Begins (Idea Presentation)</span>
                     </div>
                     <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
                 </div>
@@ -58,7 +58,7 @@
                 <div class="flex flex-col items-center justify-around">
                     <div class="mt-2 gap-4 flex">
                         <span>12 : 30 PM</span>
-                        <span class="font-semibold">Hack Begins</span>
+                        <span class="font-semibold">Hack Continues</span>
                     </div>
                     <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
                 </div>
