@@ -44,14 +44,7 @@
                 <div class="flex flex-col items-center justify-around">
                     <div class="mt-2 gap-4 flex">
                         <span>09 : 30 AM</span>
-                        <span class="font-semibold">Hack Begins (Idea Presentation)</span>
-                    </div>
-                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
-                </div>
-                <div class="flex flex-col items-center justify-around">
-                    <div class="mt-2 gap-4 flex">
-                        <span>10 : 30 AM</span>
-                        <span class="font-semibold">Introduction Session</span>
+                        <span class="font-semibold">Hack Begins</span>
                     </div>
                     <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
                 </div>
@@ -59,6 +52,13 @@
                     <div class="mt-2 gap-4 flex">
                         <span>12 : 30 PM</span>
                         <span class="font-semibold">Hack Continues</span>
+                    </div>
+                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
+                </div>
+                <div class="flex flex-col items-center justify-around">
+                    <div class="mt-2 gap-4 flex">
+                        <span>03 : 30 PM</span>
+                        <span class="font-semibold">Idea Presentation</span>
                     </div>
                     <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
                 </div>
@@ -89,13 +89,6 @@
                     <div class="mt-2 grid grid-cols-2 gap-4 justify-items-center justify-evenly">
                         <span>After <br> Evaluation</span>
                         <span class="font-semibold">Result <br> Announcement</span>
-                    </div>
-                    <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
-                </div>
-                <div class="flex flex-col items-center justify-around">
-                    <div class="mt-2 grid grid-cols-2 gap-4 justify-items-center justify-evenly">
-                        <span>03 : 00 PM</span>
-                        <span class="font-semibold">Project <br> Presentation</span>
                     </div>
                     <hr class="mt-6 mb-10 border-2 border-[#F87666] mx-[10%] w-[70%]">
                 </div>
