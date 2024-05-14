@@ -18,10 +18,9 @@
                 24 Hours - National Level Hackathon
             </div>
 
-            <div class="first-letter:font-sans text-palette-400">
+            <div class="first-letter:font-sans text-palette-400 mt-4">
                 <div class="apply-button" data-hackathon-slug="magnathon2024" data-button-theme="light"
                     style="height: 44px; width: 312px"></div>
-
             </div>
         </div>
     </div>

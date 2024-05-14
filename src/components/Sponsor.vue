@@ -41,7 +41,7 @@
     </div>
     <div class="mt-12">
         <div class="font-sans text-[#166F7B] text-2xl font-bold" >
-            Certicates Patner
+            Certificates Patner
         </div>
     </div>
     <div class="flex flex-col justify-center items-center lg:flex-row mt-10">

@@ -34,25 +34,25 @@ A hackathon is an invention and innovation competition focused on technology. It
         <h3 class="text-2xl font-semibold text-center text-[#031d44]">Hack Starts In</h3>
     </div>
     <div class="flex justify-center items-center mt-2">
-        <div class="time text-3xl">{{ days }}
+        <div class="time text-3xl">0
             <div class="overlay flex flex-col justify-end items-center text-xl">
                 Days
             </div>
         </div>
         <div class="hidden md:flex time-gap"> : </div>
-        <div class="time text-3xl">{{ hours }}
+        <div class="time text-3xl">0
             <div class="overlay flex flex-col justify-end items-center text-xl">
                 Hrs
             </div>
         </div>
         <div class="hidden md:flex time-gap"> : </div>
-        <div class="time text-3xl">{{ minutes }}
+        <div class="time text-3xl">0
             <div class="overlay flex flex-col justify-end items-center text-xl">
                 Mins
             </div>
         </div>
         <div class="hidden md:flex time-gap"> : </div>
-        <div class="time text-3xl">{{ seconds }}
+        <div class="time text-3xl">0
             <div class="overlay flex flex-col justify-end items-center text-xl">
                 Sec
             </div>
